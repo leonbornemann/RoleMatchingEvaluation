@@ -11,4 +11,4 @@ We evaluate our method on datasets from the Socrata open government data portal,
 
 # Usage
 
-The repository contains two python3 jupyter notebooks (https://jupyter.org/), that draw plots or print out the precision/recall/f1 measures. To execute them, you need the output data (csv files) of the [CBRM](https://github.com/leonbornemann/CompatibilityBasedRoleMatching) evaluation script.
+The repository contains two python3 jupyter notebooks (https://jupyter.org/), that draw plots or print out the precision/recall/f1 measures. To execute them, you need the output data (csv files) of the [CBRM](https://github.com/leonbornemann/CompatibilityBasedRoleMatching) evaluation script. The results of the original experiments for the above mentioned paper are available here (Link to be published soon). 
