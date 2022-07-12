@@ -1,8 +1,0 @@
-dataset, predictedIsMatch, trueIsMatch, match_confidence
-politics,1,1,0.9
-politics,1,1,0.8
-politics,1,0,0.7
-politics,0,1,0.6
-politics,0,1,0.5
-politics,0,0,0.3
-politics,0,0,0.2

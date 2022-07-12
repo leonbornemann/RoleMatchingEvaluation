@@ -5,6 +5,8 @@ def getPRF(scoreName, group):
     fp = sum(((group[scoreName]) & (~group['isSemanticRoleMatch'])))
     #tn = sum(((~group['isInCBRB']) & (~group['isSemanticRoleMatch'])))
     fn = sum((~group[scoreName] & group['isSemanticRoleMatch']))
+    if(tp + fp ==0):
+        print("ooops")
     precision = tp / (tp + fp)
     recall = tp / (tp + fn)
     f1 = 2 * precision * recall / (precision + recall)
@@ -44,25 +46,58 @@ def getPrecisionRecallF1String(df,scoreName,weighted,bucketAndDatasetToWeight):
         precision,recall,f1 = getPRF(scoreName,df)
     return roundToPercentage(precision) + "," + roundToPercentage(recall) + ", " + roundToPercentage(f1)
 
+def getRecall(df,scoreName,weighted,bucketAndDatasetToWeight):
+    if (weighted):
+        _, recall, _ = getWEIGHTEDPRF(scoreName, df, bucketAndDatasetToWeight)
+    else:
+        _, recall, _ = getPRF(scoreName, df)
+    return recall
+
+def getRecallString(df,scoreName,weighted,bucketAndDatasetToWeight):
+    recall = getRecall(df,scoreName,weighted,bucketAndDatasetToWeight)
+    return roundToPercentage(recall)
+
 def printPostiveRateForNonparametrizedMethodsDF(dataset,df,methodNames,weighted,bucketAndDatasetToWeight):
     dfWithMatches = df[df['isSemanticRoleMatch']]
     totalTP = len(dfWithMatches.index)
     strings = ",".join(list(map(lambda x: getPrecisionRecallF1String(df,x,weighted,bucketAndDatasetToWeight),methodNames)))
     print(dataset,totalTP,strings, sep=",")
 
+def printRecallForNonparametrizedMethodsDF(dataset,df,methodNames,weighted,bucketAndDatasetToWeight):
+    dfWithMatches = df[df['isSemanticRoleMatch']]
+    totalTP = len(dfWithMatches.index)
+    strings = ",".join(list(map(lambda x: getRecallString(df,x,weighted,bucketAndDatasetToWeight),methodNames)))
+    print(dataset,totalTP,strings, sep=",")
+
 def printMacroAverages(param, df,methodNames,weighted,bucketAndDatasetToWeight):
-    groups = df.groupby(['dataset'])
-    resultRows = []
-    for (key),group in groups:
-        for method in methodNames:
-            if(weighted):
-                precision,recall,f1 = getWEIGHTEDPRF(method,group,bucketAndDatasetToWeight)
-            else:
-                precision,recall,f1 = getPRF(method,group)
-            resultRows.append({'dataset':key,'method':method,'precision':precision,'recall':recall,'f1':f1})
-    resultDF = pd.DataFrame(resultRows)
+    resultDF = getMetricsPerDataset(bucketAndDatasetToWeight, df, methodNames, weighted)
     byMethod = resultDF.groupby(['method']).agg({'precision':"mean",'recall':"mean",'f1':"mean"})
     metricNames = ['precision','recall','f1']
+    #print(byMethod)
+    print(param,",,",sep="",end="")
+    for method in methodNames:
+        for metric in metricNames:
+            print(str(int(round(100*byMethod.loc[method][metric],2))),",",sep="",end="")
+
+
+def getMetricsPerDataset(bucketAndDatasetToWeight, df, methodNames, weighted):
+    groups = df.groupby(['dataset'])
+    resultRows = []
+    for (key), group in groups:
+        for method in methodNames:
+            if (weighted):
+                precision, recall, f1 = getWEIGHTEDPRF(method, group, bucketAndDatasetToWeight)
+            else:
+                precision, recall, f1 = getPRF(method, group)
+            resultRows.append({'dataset': key, 'method': method, 'precision': precision, 'recall': recall, 'f1': f1})
+    resultDF = pd.DataFrame(resultRows)
+    return resultDF
+
+
+def printMacroAveragesRecall(param, df,methodNames,weighted,bucketAndDatasetToWeight):
+    resultDF = getMetricsPerDataset(bucketAndDatasetToWeight, df, methodNames, weighted)
+    byMethod = resultDF.groupby(['method']).agg({'recall':"mean"})
+    metricNames = ['recall']
     #print(byMethod)
     print(param,",,",sep="",end="")
     for method in methodNames:
