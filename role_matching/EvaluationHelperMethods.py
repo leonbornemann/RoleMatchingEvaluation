@@ -13,12 +13,10 @@ datasetToAbbreviation = {
 'tv_and_film' : 'TV'
 }
 
-def getBucketAndDatasetToWeight():
+def getBucketAndDatasetToWeight(pathTo95TVA2DVASample):
     dsNames = ["education", "football", "military", "politics", "tv_and_film"]
-    largeSampleDF = pd.DataFrame()
-    for dsName in dsNames:
-        df = pd.read_csv("localData/semanticAnnotation/largeFilesCorrectDecay/" + dsName + ".csv")
-        largeSampleDF = largeSampleDF.append(df)
+    datasets = list(map(lambda dsName: pd.read_csv(pathTo95TVA2DVASample + dsName + ".csv"),dsNames))
+    largeSampleDF = pd.concat(datasets)
     largeSampleDF["[0.0,0.7) (<70%)"] = largeSampleDF['compatibilityPercentageNoDecay'] < 0.7
     largeSampleDF["[0.7,1.0) (70%)"] = ((largeSampleDF['compatibilityPercentageNoDecay'] >= 0.7) & (
                 largeSampleDF['compatibilityPercentageNoDecay'] < 1.0))
@@ -38,8 +36,8 @@ def getBucketAndDatasetToWeight():
     # Relative Sizes of the three buckets:
     return bucketAndDatasetToWeight,bucketToWeight
 
-def readGoldStandardEvaluation(OLD):
-    if (OLD):
+def readGoldStandardEvaluation(loadDiverseGoldStandard,pathTo95TVA2DVASample):
+    if (loadDiverseGoldStandard):
         df = pd.read_csv("localData/semanticAnnotation/gs1/results.csv")
     else:
         df = pd.read_csv("localData/semanticAnnotation/gs2/results.csv")
@@ -55,7 +53,7 @@ def readGoldStandardEvaluation(OLD):
     df['isInStrictCompatibleBlocking'] = (df['strictlyCompatiblePercentage'] >= 1.0)
     # filters:
     addFilteredBlockingMethods(df)
-    bucketAndDatasetToWeight, _ = getBucketAndDatasetToWeight()
+    bucketAndDatasetToWeight, _ = getBucketAndDatasetToWeight(pathTo95TVA2DVASample)
     df['bucket'] = df['compatibilityPercentageNoDecay'].map(lambda x: getGroup(x))
     df["weight"] = df.apply(lambda x: getWeight(bucketAndDatasetToWeight, x), axis=1)
     return df
@@ -92,13 +90,6 @@ def getWeight(bucketAndDatasetToWeight,x):
 
 def addDVA2VA95Blocking(df):
     df['isInDVA2VA95Blocking'] = ((df["DVACount"] >=2) & (df["VACount"]>=95))
-
-def addParametrizedScoresAsBooleanScores(largeSampleDF):
-    largeSampleDF['isIncbrbWithDecayTargetRecall95'] =  (largeSampleDF['compatibilityPercentageDecay'] >=  0.94)
-    largeSampleDF['isIncbrbWithOutDecayTargetRecall95'] =  (largeSampleDF['compatibilityPercentageNoDecay'] >=  0.892241)
-    largeSampleDF['isRMTargetRecall95'] = (largeSampleDF['exactSequenceMatchPercentage'] >=  0.754663)
-    largeSampleDF['isSCBTargetRecall95'] = (largeSampleDF['strictlyCompatiblePercentage'] >=  0.890805)
-    largeSampleDF['isSCBWithDecayTargetRecall95'] = (largeSampleDF['strictlyCompatiblePercentageWithDecay'] >=  0.93)
 
 def addDVA2VA95Blocking(df):
     df['isInDVA2VA95Blocking'] = ((df["DVACount"] >=2) & (df["VACount"]>=95))
