@@ -36,11 +36,11 @@ def getBucketAndDatasetToWeight(pathTo95TVA2DVASample):
     # Relative Sizes of the three buckets:
     return bucketAndDatasetToWeight,bucketToWeight
 
-def readGoldStandardEvaluation(loadDiverseGoldStandard,pathTo95TVA2DVASample):
+def readGoldStandardEvaluation(goldStandardPath,loadDiverseGoldStandard,pathTo95TVA2DVASample):
     if (loadDiverseGoldStandard):
-        df = pd.read_csv("localData/semanticAnnotation/gs1/results.csv")
+        df = pd.read_csv(goldStandardPath + "/dgs/results.csv")
     else:
-        df = pd.read_csv("localData/semanticAnnotation/gs2/results.csv")
+        df = pd.read_csv(goldStandardPath + "/rgs/results.csv")
     df['isInCBRB'] = ((df['compatibilityPercentageDecay'] >= 0.8))
     df['isInCBRBNoDecay'] = ((df['compatibilityPercentageNoDecay'] >= 0.8))
     df['isInCBRBWithTransitionFilter'] = ((df['compatibilityPercentageDecay'] >= 0.8) & df['hasTransitionOverlapDecay'])

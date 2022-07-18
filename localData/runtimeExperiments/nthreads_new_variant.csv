@@ -1,13 +1,7 @@
 nthreads,dataset,timeInSeconds
-32,chicago,234
 32,football,1774
-16,chicago,212
 16,football,2028
-8,chicago,223
 8,football,2623
-4,chicago,245
 4,football,4136
-2,chicago,291
 2,football,8351
-1,chicago,513
 1,football,22781
