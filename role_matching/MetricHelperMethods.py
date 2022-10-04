@@ -69,6 +69,13 @@ def printRecallForNonparametrizedMethodsDF(dataset,df,methodNames,weighted,bucke
     strings = ",".join(list(map(lambda x: getRecallString(df,x,weighted,bucketAndDatasetToWeight),methodNames)))
     print(dataset,totalTP,strings, sep=",")
 
+def getRecallForNonparametrizedMethodsDF(dataset,df,methodNames,weighted,bucketAndDatasetToWeight):
+    dfWithMatches = df[df['isSemanticRoleMatch']]
+    recalls = list(map(lambda x: getRecall(df,x,weighted,bucketAndDatasetToWeight),methodNames))
+    return recalls
+
+
+
 def printMacroAverages(param, df,methodNames,weighted,bucketAndDatasetToWeight):
     resultDF = getMetricsPerDataset(bucketAndDatasetToWeight, df, methodNames, weighted)
     byMethod = resultDF.groupby(['method']).agg({'precision':"mean",'recall':"mean",'f1':"mean"})

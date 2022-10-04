@@ -36,20 +36,18 @@ def getBucketAndDatasetToWeight(pathTo95TVA2DVASample):
     # Relative Sizes of the three buckets:
     return bucketAndDatasetToWeight,bucketToWeight
 
-def readGoldStandardEvaluation(goldStandardPath,loadDiverseGoldStandard,pathTo95TVA2DVASample):
-    if (loadDiverseGoldStandard):
-        df = pd.read_csv(goldStandardPath + "/dgs.csv")
-    else:
-        df = pd.read_csv(goldStandardPath + "/rgs.csv")
+
+def readGoldStandard(path,pathTo95TVA2DVASample):
+    df = pd.read_csv(path)
     df['isInCBRB'] = ((df['compatibilityPercentageDecay'] >= 0.8))
     df['isInCBRBNoDecay'] = ((df['compatibilityPercentageNoDecay'] >= 0.8))
     df['isInCBRBWithTransitionFilter'] = ((df['compatibilityPercentageDecay'] >= 0.8) & df['hasTransitionOverlapDecay'])
     df['isInCBRBNoDecayWithTransitionFilter'] = (
-                (df['compatibilityPercentageNoDecay'] >= 0.8) & df['hasTransitionOverlapNoDecay'])
+            (df['compatibilityPercentageNoDecay'] >= 0.8) & df['hasTransitionOverlapNoDecay'])
     df['isInStrictBlockingDecayWithTransitionFilter'] = (
-                (df['compatibilityPercentageDecay'] >= 1.0) & df['hasTransitionOverlapDecay'])
+            (df['compatibilityPercentageDecay'] >= 1.0) & df['hasTransitionOverlapDecay'])
     df['isInStrictBlockingNoDecayWithTransitionFilter'] = (
-                (df['compatibilityPercentageNoDecay'] >= 1.0) & df['hasTransitionOverlapNoDecay'])
+            (df['compatibilityPercentageNoDecay'] >= 1.0) & df['hasTransitionOverlapNoDecay'])
     df['isInStrictCompatibleBlocking'] = (df['strictlyCompatiblePercentage'] >= 1.0)
     # filters:
     addFilteredBlockingMethods(df)
@@ -57,7 +55,11 @@ def readGoldStandardEvaluation(goldStandardPath,loadDiverseGoldStandard,pathTo95
     df['bucket'] = df['compatibilityPercentageNoDecay'].map(lambda x: getGroup(x))
     df["weight"] = df.apply(lambda x: getWeight(bucketAndDatasetToWeight, x), axis=1)
     return df
-
+def readGoldStandardEvaluation(goldStandardPath,loadDiverseGoldStandard,pathTo95TVA2DVASample):
+    if (loadDiverseGoldStandard):
+        return readGoldStandard(goldStandardPath + "/dgs.csv",pathTo95TVA2DVASample)
+    else:
+        return readGoldStandard(goldStandardPath + "/rgs.csv", pathTo95TVA2DVASample)
 def addFilteredBlockingMethods(df):
     df['isInStrictBlockingNoDecayWithFilter'] = ((df['isInStrictBlockingNoDecay']) & df['hasTransitionOverlapNoDecay'])
     df['isInValueSetBlockingWithFilter'] = ((df['isInValueSetBlocking']) & df['hasTransitionOverlapNoDecay'])
