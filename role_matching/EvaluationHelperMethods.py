@@ -39,13 +39,9 @@ def getBucketAndDatasetToWeight(pathTo95TVA2DVASample):
 
 def readGoldStandard(path,pathTo95TVA2DVASample):
     df = pd.read_csv(path)
-    df['isInCBRB'] = ((df['compatibilityPercentageDecay'] >= 0.8))
     df['isInCBRBNoDecay'] = ((df['compatibilityPercentageNoDecay'] >= 0.8))
-    df['isInCBRBWithTransitionFilter'] = ((df['compatibilityPercentageDecay'] >= 0.8) & df['hasTransitionOverlapDecay'])
     df['isInCBRBNoDecayWithTransitionFilter'] = (
             (df['compatibilityPercentageNoDecay'] >= 0.8) & df['hasTransitionOverlapNoDecay'])
-    df['isInStrictBlockingDecayWithTransitionFilter'] = (
-            (df['compatibilityPercentageDecay'] >= 1.0) & df['hasTransitionOverlapDecay'])
     df['isInStrictBlockingNoDecayWithTransitionFilter'] = (
             (df['compatibilityPercentageNoDecay'] >= 1.0) & df['hasTransitionOverlapNoDecay'])
     df['isInStrictCompatibleBlocking'] = (df['strictlyCompatiblePercentage'] >= 1.0)
@@ -55,17 +51,32 @@ def readGoldStandard(path,pathTo95TVA2DVASample):
     df['bucket'] = df['compatibilityPercentageNoDecay'].map(lambda x: getGroup(x))
     df["weight"] = df.apply(lambda x: getWeight(bucketAndDatasetToWeight, x), axis=1)
     return df
-def readGoldStandardEvaluation(goldStandardPath,loadDiverseGoldStandard,pathTo95TVA2DVASample):
-    if (loadDiverseGoldStandard):
-        return readGoldStandard(goldStandardPath + "/dgs.csv",pathTo95TVA2DVASample)
+def readGoldStandardEvaluation(goldStandardPath,loadDiverseGoldStandard,pathTo95TVA2DVASample,missingValuePercentage=None):
+    if(missingValuePercentage==None):
+        if (loadDiverseGoldStandard):
+            return readGoldStandard(goldStandardPath + "/dgs.csv",pathTo95TVA2DVASample)
+        else:
+            return readGoldStandard(goldStandardPath + "/rgs.csv", pathTo95TVA2DVASample)
     else:
-        return readGoldStandard(goldStandardPath + "/rgs.csv", pathTo95TVA2DVASample)
+        if (loadDiverseGoldStandard):
+            return readGoldStandard(goldStandardPath + "/dgs/dgs_cleaned_" + str(missingValuePercentage) + ".csv",pathTo95TVA2DVASample)
+        else:
+            return readGoldStandard(goldStandardPath + "/rgs/rgs_cleaned_" + str(missingValuePercentage) + ".csv", pathTo95TVA2DVASample)
 def addFilteredBlockingMethods(df):
     df['isInStrictBlockingNoDecayWithFilter'] = ((df['isInStrictBlockingNoDecay']) & df['hasTransitionOverlapNoDecay'])
     df['isInValueSetBlockingWithFilter'] = ((df['isInValueSetBlocking']) & df['hasTransitionOverlapNoDecay'])
     df['isInSequenceBlockingWithFilter'] = ((df['isInSequenceBlocking']) & df['hasTransitionOverlapNoDecay'])
     df['isInExactMatchBlockingWithFilter'] = ((df['isInExactMatchBlocking']) & df['hasTransitionOverlapNoDecay'])
     df['isInTSMBlockingWithFilter'] = ((df['isInTSMBlockingNoWildcard']) & df['hasTransitionOverlapNoDecay'])
+    #TVA filterd
+    df['isInStrictBlockingNoDecayWithDVAFilter'] = ((df['isInStrictBlockingNoDecay']) & (df['DVACount'] > 0))
+    df['isInValueSetBlockingWithDVAFilter'] = ((df['isInValueSetBlocking']) & (df['DVACount'] > 0))
+    df['isInSequenceBlockingWithDVAFilter'] = ((df['isInSequenceBlocking']) & (df['DVACount'] > 0))
+    df['isInExactMatchBlockingWithDVAFilter'] = ((df['isInExactMatchBlocking']) & (df['DVACount'] > 0))
+    df['isInTSMBlockingWithDVAFilter'] = ((df['isInTSMBlockingNoWildcard']) & (df['DVACount'] > 0))
+
+def addRMMethodWithParameter(df,param):
+    df["isInRM" + str(param)] = (df["exactSequenceMatchPercentage"] >= param)
 
 def addShortDataset(df):
     df['datasetShort'] = df['dataset'].map(lambda x: datasetToAbbreviation[x])

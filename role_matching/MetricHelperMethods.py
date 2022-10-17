@@ -6,10 +6,15 @@ def getPRF(scoreName, group):
     #tn = sum(((~group['isInCBRB']) & (~group['isSemanticRoleMatch'])))
     fn = sum((~group[scoreName] & group['isSemanticRoleMatch']))
     if(tp + fp ==0):
-        print("ooops")
-    precision = tp / (tp + fp)
-    recall = tp / (tp + fn)
-    f1 = 2 * precision * recall / (precision + recall)
+        precision=0
+        recall=0
+    else:
+        precision = tp / (tp + fp)
+        recall = tp / (tp + fn)
+    if(precision+recall == 0):
+        f1 = 0
+    else:
+        f1 = 2 * precision * recall / (precision + recall)
     return precision, recall, f1
 
 def getPRFN(scoreName, group):
@@ -31,9 +36,18 @@ def getWEIGHTEDPRF(scoreName,df,bucketAndDatasetToWeight):
         weightedNominator += tp
         weightedDenominatorRecall += (tp+fn)
         weightedDenominatorPrecision += (tp+fp)
-    precision = weightedNominator / weightedDenominatorPrecision
-    recall = weightedNominator / weightedDenominatorRecall
-    f1 = 2 * precision * recall / (precision + recall)
+    if(weightedDenominatorPrecision==0):
+        precision=0
+    else:
+        precision = weightedNominator / weightedDenominatorPrecision
+    if(weightedDenominatorRecall==0):
+        recall=0
+    else:
+        recall = weightedNominator / weightedDenominatorRecall
+    if(recall+precision==0):
+        f1=0
+    else:
+        f1 = 2 * precision * recall / (precision + recall)
     return precision, recall, f1
 
 def roundToPercentage(number):
@@ -69,8 +83,7 @@ def printRecallForNonparametrizedMethodsDF(dataset,df,methodNames,weighted,bucke
     strings = ",".join(list(map(lambda x: getRecallString(df,x,weighted,bucketAndDatasetToWeight),methodNames)))
     print(dataset,totalTP,strings, sep=",")
 
-def getRecallForNonparametrizedMethodsDF(dataset,df,methodNames,weighted,bucketAndDatasetToWeight):
-    dfWithMatches = df[df['isSemanticRoleMatch']]
+def getRecallForNonparametrizedMethodsDF(df,methodNames,weighted,bucketAndDatasetToWeight):
     recalls = list(map(lambda x: getRecall(df,x,weighted,bucketAndDatasetToWeight),methodNames))
     return recalls
 
@@ -110,6 +123,15 @@ def printMacroAveragesRecall(param, df,methodNames,weighted,bucketAndDatasetToWe
     for method in methodNames:
         for metric in metricNames:
             print(str(int(round(100*byMethod.loc[method][metric],2))),",",sep="",end="")
+
+def getMacroAveragesRecall(df,methodNames,weighted,bucketAndDatasetToWeight):
+    resultDF = getMetricsPerDataset(bucketAndDatasetToWeight, df, methodNames, weighted)
+    byMethod = resultDF.groupby(['method']).agg({'recall': "mean"})
+    # print(byMethod)
+    result = []
+    for method in methodNames:
+        result.append(byMethod.loc[method]["recall"])
+    return result
 
 def getNAndRecallString(df, scoreName):
     _,r,_,n = getPRFN(scoreName,df)
