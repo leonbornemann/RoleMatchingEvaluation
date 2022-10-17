@@ -1,0 +1,943 @@
+dataset,id1,id2,label,vmScore,nmScore
+education,infobox book||1832130||71384825-0||genre,infobox book||59842||67483185-0||genre,false,0.17422051425241009,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||71479||47583457-0||genre,false,0.15195654869402453,0.23214206647809166
+education,infobox school||11145292||283644191-0||accreditation,infobox school||11346477||283835285-0||accreditation,false,0.1864825321518151,0.0
+education,infobox book||35825142||527303227-0||media_type,infobox book||37693329||523954126-0||media_type,false,0.16565927220095653,0.0
+education,infobox book||1292785||42082104-0||genre,infobox book||68857||47519287-0||genre,true,0.15195654869402453,0.0
+education,infobox book||2613883||63902304-0||media_type,infobox book||2630729||62769431-0||media_type,false,0.07097800792342554,0.0
+education,infobox school||11294153||225538506-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||10416018||119647190-0||genre,infobox book||4082||55457780-0||genre,false,0.15195654869402453,0.23360206423552204
+education,infobox school||11294153||225538506-0||accreditation,infobox school||11346147||283845627-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||34264690||469283288-0||enrollment_as_of,infobox school||34397833||471680728-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||35825142||527303227-0||media_type,infobox book||38563327||589413708-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||11346354||283860160-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1491166||52557564-0||genre,infobox book||23713951||91908771-0||genre,false,0.17621651006233094,0.0
+education,infobox school||11160819||283818078-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||10697578||123179668-0||genre_🔗_extractedLink0,infobox book||10697619||123180162-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014211
+education,infobox book||18695907||229495492-0||language,infobox book||3071038||91405402-0||language,false,0.1381649007705521,0.0
+education,infobox school||11278700||276030465-0||accreditation,infobox school||11358182||283573513-0||accreditation,false,0.1864825321518151,0.03508880783770626
+education,infobox school||4067130||285289863-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||17727956||232238330-0||type,infobox secondary school||12508710||225292851-0||type,false,0.15587041154369186,0.0
+education,infobox book||11993928||173429847-0||caption,infobox book||12861011||153316506-0||caption,false,0.18165138450001111,0.38500577346905096
+education,infobox school||11120943||286561615-0||accreditation,infobox secondary school||11512058||177645590-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox book||2683082||87392184-0||genre,infobox book||4583530||61657902-0||genre,false,0.17955455892958355,0.0
+education,infobox school||11345683||283976667-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||27310667||361364025-0||enrollment_as_of,infobox secondary school||19529744||241882320-0||enrollment_as_of,false,0.2234083371094996,0.10526642351311877
+education,infobox book||591370||243189042-0||caption,infobox book||7051390||93675741-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11520015||286559606-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||68863||47583658-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||4067130||285289863-0||enrollment_as_of,infobox secondary school||11293810||193500099-0||enrollment_as_of,false,0.1525360822441889,0.060656189524399516
+education,infobox school||10116511||280850657-0||accreditation,infobox secondary school||11512058||177645590-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox school||11158569||283774868-0||accreditation,infobox school||12269793||145146231-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||8775401||353203373-0||accreditation,infobox school||8855909||350248236-0||accreditation,false,0.2724412306336661,0.0
+education,infobox book||10697740||123181323-0||country,infobox book||19278419||123181871-0||country,true,0.11758525065170825,0.4191874230098224
+education,infobox book||10415963||119646251-0||genre,infobox book||19278419||123181871-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||6616129||347120828-0||accreditation,infobox school||6684878||348807837-0||accreditation,false,0.24519405494277097,0.0
+education,infobox book||1505560||57138751-0||genre,infobox book||19278419||123181871-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox school||2923949||50252840-0||country,infobox school||986754||214786159-0||country,false,0.12302506643726109,0.0
+education,infobox school||11279459||285765042-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||2151717||304345096-0||accreditation,infobox school||6904790||354953366-0||accreditation,false,0.2822054255131724,0.0
+education,infobox school||11491772||285277442-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||3440867||283977561-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11145292||283644191-0||grades,infobox school||11161262||283661591-0||grades,false,0.16802465304016148,0.14035523135082503
+education,infobox book||4081||55457828-0||genre,infobox book||71480||47583245-0||genre,false,0.15195654869402453,0.0
+education,infobox secondary school||11512058||177645590-0||accreditation,infobox secondary school||11520557||177643169-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox school||12677828||276833151-0||accreditation,infobox school||3433237||293925046-0||accreditation,false,0.23393457153304148,0.0
+education,infobox school||11289931||285859044-0||accreditation,infobox school||3947661||283638837-0||accreditation,false,0.29567851701289527,0.0
+education,infobox school||6644076||354758652-0||accreditation,infobox school||6904324||354749324-0||accreditation,false,0.2822054255131724,0.0
+education,infobox book||1505560||57138751-0||genre_🔗_extractedLink0,infobox book||916002||56807455-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11346354||283860160-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||27716643||368117357-0||country,infobox school||27716904||368123947-0||country,true,0.14380375573155466,0.0
+education,infobox school||34377322||471325672-0||enrollment_as_of,infobox school||34476468||472906493-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.17959642001313286,0.0
+education,infobox university||44337805||632952995-0||chancellor,infobox university||45314572||645784044-0||chancellor,false,0.5456805377822072,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox secondary school||8404447||96718695-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||71479||47583457-0||genre_🔗_extractedLink0,infobox book||71480||47583245-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11278700||276030465-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11296266||289724949-0||accreditation,infobox school||11340585||290006660-0||accreditation,false,0.3134985804361461,0.0
+education,infobox book||10697334||123177462-0||genre,infobox book||19278419||123181871-0||genre,true,0.15195654869402453,0.3848161249675061
+education,infobox book||15894908||200603279-0||genre_🔗_extractedLink0,infobox book||8520267||246196676-0||genre_🔗_extractedLink0,true,0.22225166223054682,0.1572932473495469
+education,infobox university||8141613||108733535-0||country,infobox_university||910283||37949326-0||country,false,0.12302506643726109,0.0
+education,infobox school||11509405||286648102-0||accreditation,infobox secondary school||11509981||176761327-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox secondary school||10403385||119491348-0||country,infobox secondary school||10434493||119914846-0||country,false,0.1856649268403572,0.0
+education,infobox school||24072509||309373706-0||enrollment_as_of,infobox school||27301119||361205796-0||enrollment_as_of,false,0.1498191277289286,0.0
+education,infobox secondary school||10627470||124488172-0||accreditation,infobox secondary school||11632690||238058201-0||accreditation,false,0.19657524942412669,0.07017761567541252
+education,infobox school||11947685||291688933-0||accreditation,infobox school||666651||291630120-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||34313959||470206559-0||enrollment_as_of,infobox school||34719494||476595126-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11521966||295950098-0||country,infobox school||4772613||284415309-0||country,false,0.12845219657708284,0.0
+education,infobox school||23771723||304625733-0||enrollment_as_of,infobox school||4884695||276602954-0||enrollment_as_of,false,0.14544057663744664,0.0
+education,infobox school||11520015||286559606-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11511953||149666220-0||accreditation,infobox school||11520015||286559606-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||18237768||222983629-4||language,infobox book||18237768||222983629-4||language,false,0.1381649007705521,1.8509842142134527
+education,infobox school||2549364||280943934-0||accreditation,infobox school||4906053||283914403-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||15372940||189203807-0||country,infobox book||6723828||189207554-0||country,true,0.30102999566398114,0.0
+education,infobox book||58901||43506282-0||country,infobox book||67838||42909211-0||country,false,0.1519289564552069,0.0
+education,infobox secondary school||11508471||177485449-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||27716904||368123947-0||country,infobox school||7746874||258220382-0||country,false,0.14380375573155466,0.0
+education,infobox school||11175350||281564102-0||accreditation,infobox school||11290009||285706676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||1685136||282775839-0||accreditation,infobox secondary school||11508095||177653515-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||19772135||245189405-0||pub_date,infobox university||24013114||308438959-0||established,false,0.2506336942521211,0.0
+education,infobox book||19278419||123181871-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||10416018||119647190-0||genre,infobox book||10697284||123176981-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox school||27598104||34392539-0||accreditation,infobox secondary school||9784578||111767151-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||11120943||286561615-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||3433237||293925046-0||accreditation,infobox school||3658722||219542429-0||accreditation,false,0.23393457153304148,0.0
+education,infobox school||11961017||291681846-0||accreditation,infobox school||8813674||99211797-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||10003936||170819573-0||accreditation,infobox school||11888814||291735092-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||34430017||574843880-0||media_type,infobox book||35988689||495227899-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox school||11243397||194669705-0||accreditation,false,0.17959642001313286,0.0
+education,infobox secondary school||9682050||110496887-0||country,infobox_university||1000690||164582915-0||country,false,0.11473390734881975,0.0
+education,infobox school||18293608||223943390-0||type,infobox secondary school||18534479||227127949-0||type,false,0.15587041154369186,0.0
+education,infobox book||4097091||39923494-0||language,infobox book||6530744||70354986-0||language,false,0.1381649007705521,0.055216373738846664
+education,infobox book||10697740||123181323-0||genre_🔗_extractedLink0,infobox book||19278419||123181871-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014211
+education,infobox university||3043386||182713905-0||type,infobox university||5115698||136985212-0||type,false,0.14607245203519723,0.0
+education,infobox school||11276916||285687892-0||accreditation,infobox school||11358182||283573513-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox secondary school||11520322||177758905-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||1474751||154181649-0||pages,infobox book||5768015||154176141-0||pages,false,0.2851675587695453,0.0
+education,infobox school||11159989||283646196-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11706294||137379654-0||type,infobox secondary school||3423819||161436213-0||type,false,0.2641897076508296,0.0
+education,infobox school||11290009||285706676-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||2859554||217758129-0||schooltype,infobox secondary school||8620573||96855969-0||type,false,0.23393457153304148,0.0
+education,infobox book||10697578||123179668-0||genre,infobox book||71480||47583245-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||36931834||510998773-4||enrollment_as_of,infobox school||36931834||510998773-4||enrollment_as_of,true,0.21033631078350845,2.841345243134034
+education,infobox book||10697525||123179126-0||genre,infobox book||4472851||123180666-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox book||35825142||527303227-0||media_type,infobox book||37743481||576817543-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||11345956||283856419-0||accreditation,infobox school||12269793||145146231-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||215316||77313262-0||genre,infobox book||4082||55457780-0||genre,false,0.15195654869402453,0.07017761567541252
+education,infobox school||8442559||284270609-0||accreditation,infobox secondary school||8095788||279472934-0||accreditation,false,0.24339171623029562,0.0
+education,infobox school||17727956||232238330-0||type,infobox school||9474961||270668531-0||type,false,0.15587041154369186,0.0
+education,infobox school||11347223||283858098-0||accreditation,infobox school||3763008||283781097-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||1505560||57138751-0||genre,infobox book||68870||47584129-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox school||11158569||283774868-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10697334||123177462-0||genre,infobox book||1092478||55376559-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11278700||276030465-0||grades,infobox school||11854439||286156872-0||grades,false,0.16802465304016148,0.14035523135082503
+education,infobox secondary school||12508710||225292851-0||type,infobox secondary school||18534479||227127949-0||type,false,0.15587041154369186,0.0
+education,infobox book||16781602||205612238-0||genre_🔗_extractedLink0,infobox book||17464794||212945727-0||genre_🔗_extractedLink0,true,0.23157259506296873,0.0
+education,infobox school||8822911||333366201-0||accreditation,infobox school||8857981||333621458-0||accreditation,false,0.4106981883341638,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox secondary school||8404447||96718695-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||37683894||523786133-0||media_type,infobox book||40771525||576800657-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||3440867||283977561-0||accreditation,infobox university||11503612||213401342-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||10697334||123177462-0||genre,infobox book||10697578||123179668-0||genre,true,0.15195654869402453,0.3848161249675061
+education,infobox school||11294153||225538506-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||7038786||175093521-0||type,infobox secondary school||4425279||54707215-0||type,true,0.4198575825795424,0.0
+education,infobox scientist||38309941||569605474-0||employer,infobox scientist||38309941||569605474-0||occupation_🔗_extractedLink0,false,0.43067655807339306,2.492485403509295
+education,infobox school||4884695||276602954-0||enrollment_as_of,infobox university||11503612||213401342-0||enrollment_as_of,false,0.14544057663744664,0.0
+education,infobox book||1036256||62609949-2||genre,infobox book||4118548||40173184-0||genre,false,0.18158874989873744,0.0
+education,infobox book||4081||55457828-0||genre,infobox book||71479||47583457-0||genre,false,0.15195654869402453,0.0
+education,infobox book||3608533||52256286-0||media_type,infobox book||530285||56333988-0||media_type,false,0.07097800792342554,0.0
+education,infobox school||11296266||289724949-0||accreditation,infobox school||11343180||227112244-0||accreditation,false,0.3134985804361461,0.24465054211822598
+education,infobox book||10697619||123180162-0||genre,infobox book||68863||47583658-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11059425||281075478-0||accreditation,infobox school||11346477||283835285-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10416018||119647190-0||genre,infobox book||1505560||57138751-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox university||3372715||67373400-0||campus,infobox_university||674234||79372991-0||campus,false,0.1962944885985548,0.0
+education,infobox secondary school||7635708||83898746-0||upper_age,infobox uk school||9035284||126481022-0||upper_age,false,0.1731719670414805,0.03508880783770626
+education,infobox school||11242375||282782017-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox university||72599||54560887-0||type,infobox university||961817||71041418-0||type,false,0.14607245203519723,0.0
+education,infobox book||1044528||69132116-0||language,infobox book||1443090||57106750-0||language,false,0.1381649007705521,0.055216373738846664
+education,infobox school||11145292||283644191-0||accreditation,infobox school||11345683||283976667-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1935756||79394409-0||language,infobox book||3071038||91405402-0||language,false,0.1381649007705521,0.0
+education,infobox book||12717950||210937844-0||caption,infobox book||5453139||59087600-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11276916||285687892-0||accreditation,infobox school||11491772||285277442-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||25228189||443638378-0||state,infobox school||25276997||363359835-0||state,false,0.3344770674851048,0.08858738199270799
+education,infobox book||44449||72487511-0||genre_🔗_extractedLink0,infobox book||58622||47519096-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.29755578217527623
+education,infobox school||10116511||280850657-0||accreditation,infobox school||11243397||194669705-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11888814||291735092-0||accreditation,infobox school||11963427||291694086-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||1036256||62609949-2||genre,infobox book||8543436||95694285-0||genre,false,0.18158874989873744,0.0
+education,infobox school||2306618||283591035-0||accreditation,infobox school||4906053||283914403-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11159989||283646196-0||accreditation,infobox school||11161408||283815114-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||22376662||283281090-0||country,infobox book||26906776||362292810-0||country,false,0.11684014861750064,0.0
+education,infobox school||11175350||281564102-0||accreditation,infobox school||11276916||285687892-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||3440867||283977561-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,true,0.15139372431410883,0.0
+education,infobox school||6662159||105726265-0||accreditation,infobox secondary school||8855854||253927623-0||accreditation,false,0.2724412306336661,0.0
+education,infobox book||45908||67481378-0||genre,infobox book||58665||47583831-0||genre,false,0.15195654869402453,0.0
+education,infobox school||8455189||353577500-0||type,infobox school||8474589||333602311-0||type,false,0.22143520373721753,0.0
+education,infobox book||1221489||225564467-0||language,infobox book||1935756||79394409-0||language,false,0.1381649007705521,0.0
+education,infobox school||11347054||283849488-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||11145292||283644191-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||4081||55457828-0||genre_🔗_extractedLink0,infobox book||68870||47584129-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox school||11509405||286648102-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox university||363553||39433718-0||country,infobox_university||1811002||91608909-0||country,false,0.12017372313437259,0.0
+education,infobox book||202758||499685344-0||media_type,infobox book||41746070||592429702-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||11159989||283646196-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11347223||283858098-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.10526642351311877
+education,infobox school||27211251||359950481-0||enrollment_as_of,infobox school||27538139||365000996-0||enrollment_as_of,false,0.1498191277289286,0.10398740923017374
+education,infobox school||3983267||291155810-0||accreditation,infobox secondary school||3994985||136213401-0||accreditation,false,0.2961233557727666,0.0
+education,infobox book||34069432||627667644-0||preceded_by_🔗_extractedLink0,infobox book||34285997||627666983-0||followed_by_🔗_extractedLink0,false,0.43067655807339306,0.43067655807339306
+education,infobox book||4081||55457828-0||genre_🔗_extractedLink0,infobox book||71480||47583245-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox school||34377322||471325672-0||enrollment_as_of,infobox school||34719494||476595126-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||23495877||300358411-0||type_🔗_extractedLink0,infobox school||23519990||300735651-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox book||17464794||212945727-0||genre_🔗_extractedLink0,infobox book||8497022||135392812-0||genre_🔗_extractedLink0,true,0.23157259506296873,0.0
+education,infobox school||11961017||291681846-0||accreditation,infobox school||11961451||291666072-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||34377322||471325672-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||4906053||283914403-0||accreditation,infobox secondary school||11347320||238914866-0||accreditation,false,0.29567851701289527,0.0
+education,infobox school||23046250||293748917-0||country,infobox school||25227197||351541632-0||country,false,0.15021115687136197,0.14035523135082503
+education,infobox school||11520144||286649336-0||accreditation,infobox secondary school||11520557||177643169-0||accreditation,false,0.17959642001313286,0.07017761567541252
+education,infobox school||11278700||276030465-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||5621134||59401094-0||genre,infobox book||71479||47583457-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox book||35988689||495227899-0||media_type,infobox book||37693329||523954126-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||34455176||472587744-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||34394422||471623937-0||enrollment_as_of,infobox school||34406208||471822725-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||34377322||471325672-0||enrollment_as_of,infobox school||34405057||471801919-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||10697740||123181323-0||genre,infobox book||71480||47583245-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||1730056||344647007-0||accreditation,infobox school||8857542||333598986-0||accreditation,false,0.46707764187991896,0.0
+education,infobox school||34405057||471801919-0||enrollment_as_of,infobox school||34453677||472563034-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||11251507||242868046-0||caption,infobox book||12861063||208883184-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11145292||283644191-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||11158569||283774868-0||accreditation,infobox school||11290009||285706676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1092478||55376559-0||genre_🔗_extractedLink0,infobox book||71480||47583245-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox book||1092478||55376559-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||2151717||304345096-0||accreditation,infobox school||6644679||354784949-0||accreditation,false,0.2822054255131724,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11277792||285653492-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10697525||123179126-0||genre,infobox book||215316||77313262-0||genre,true,0.15195654869402453,0.03508880783770626
+education,infobox school||11630982||284254967-0||accreditation,infobox school||11666496||286132838-0||accreditation,false,0.19657524942412669,0.0
+education,infobox school||2306618||283591035-0||accreditation,infobox secondary school||3423084||70983699-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11520015||286559606-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||10116511||280850657-0||accreditation,infobox secondary school||11520557||177643169-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox school||33775658||461091357-0||enrollment_as_of,infobox school||34406208||471822725-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||34473845||472866644-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||58622||47519096-0||genre_🔗_extractedLink0,infobox book||58665||47583831-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.29755578217527623
+education,infobox school||11277792||285653492-0||accreditation,infobox school||11346354||283860160-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||16781602||205612238-0||genre_🔗_extractedLink0,infobox book||3598678||269332241-0||genre_🔗_extractedLink3,true,0.23157259506296873,0.03508880783770626
+education,infobox book||10416018||119647190-0||genre,infobox book||58665||47583831-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||14440432||173997270-0||caption,infobox book||249452||445840595-0||caption,false,0.18165138450001111,0.0
+education,infobox book||1505560||57138751-0||genre,infobox book||4082||55457780-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox school||34405057||471801919-0||enrollment_as_of,infobox school||34406208||471822725-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||10697619||123180162-0||genre_🔗_extractedLink0,infobox book||4472851||123180666-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014211
+education,infobox book||10697525||123179126-0||genre,infobox book||68871||47583090-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||26393515||354809567-0||enrollment_as_of,infobox school||34405530||471810272-0||enrollment_as_of,false,0.16007048812550864,0.0
+education,infobox school||11145292||283644191-0||grades,infobox school||11358680||283569257-0||grades,false,0.16802465304016148,0.07017761567541252
+education,infobox school||11346147||283845627-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||2505310||527376800-0||media_type,infobox book||35988689||495227899-0||media_type,false,0.16565927220095653,0.0
+education,infobox uk school||13156061||156484803-0||lea,infobox uk school||13855859||166272692-0||lea,true,0.38992987368892107,0.0
+education,infobox school||11158569||283774868-0||accreditation,infobox school||11175350||281564102-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10697284||123176981-0||genre_🔗_extractedLink0,infobox book||10697525||123179126-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014212
+education,infobox book||44449||72487511-0||genre,infobox book||71480||47583245-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||10415963||119646251-0||genre,infobox book||215316||77313262-0||genre,true,0.15195654869402453,0.0
+education,infobox book||1092478||55376559-0||genre,infobox book||4081||55457828-0||genre,false,0.15195654869402453,0.0
+education,infobox school||4949773||350409977-0||accreditation,infobox school||9073585||353196603-0||accreditation,false,0.3142094674165383,0.0
+education,infobox book||8835489||99498908-0||genre,infobox book||8873629||100034531-0||genre,false,0.36914254014211806,0.0
+education,infobox book||4081||55457828-0||genre_🔗_extractedLink0,infobox book||68857||47519287-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox book||37807928||598616232-0||media_type,infobox book||533770||687526178-0||media_type,false,0.16565927220095653,0.0
+education,infobox book||18237768||222983629-4||series,infobox book||18237768||222983629-4||series,false,0.24465054211822598,1.8509842142134527
+education,infobox school||11706294||137379654-0||type,infobox school||8807104||99121948-0||type,false,0.2641897076508296,0.0
+education,infobox book||1560109||48148846-0||language,infobox book||61034498||173433416-0||language,false,0.1381649007705521,0.0
+education,infobox school||12532641||274695867-0||accreditation,infobox_university||5169848||119659596-0||accreditation,false,0.23393457153304148,0.0
+education,infobox school||6616129||347120828-0||accreditation,infobox school||6685442||349078979-0||accreditation,false,0.24519405494277097,0.0
+education,infobox school||11277632||285484371-0||accreditation,infobox school||11279459||285765042-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11508298||286678185-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||12682586||293536722-0||accreditation,infobox school||3433237||293925046-0||accreditation,false,0.23393457153304148,0.21053284702623756
+education,infobox university||396850||47048172-0||country,infobox_university||2653359||74646672-0||country,false,0.12017372313437259,0.0
+education,infobox school||11108256||280745687-0||accreditation,infobox school||11120943||286561615-0||accreditation,false,0.17959642001313286,0.10526642351311877
+education,infobox school||12677828||276833151-0||accreditation,infobox school||12682586||293536722-0||accreditation,false,0.23393457153304148,0.0
+education,infobox school||11176649||279245913-0||country,infobox school||8660656||301074490-0||country,false,0.12845219657708284,0.0
+education,infobox book||10697619||123180162-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||17727956||232238330-0||type,infobox school||8423829||259413904-0||type,false,0.15587041154369186,0.03508880783770626
+education,infobox book||470889||94425668-0||genre,infobox book||5698295||60416392-0||genre,false,0.17621651006233094,0.0
+education,infobox school||34243476||468891468-0||enrollment_as_of,infobox school||34405057||471801919-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox secondary school||4400939||188955447-0||country,infobox university||3632802||34063724-0||country,false,0.12017372313437259,0.0
+education,infobox book||34413652||484780697-0||media_type,infobox book||4382666||482295585-0||media_type,true,0.16565927220095653,0.0
+education,infobox book||4623256||47686674-0||country,infobox university||1240251||74991386-0||country,false,0.055216373738846664,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||4472851||123180666-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox book||19278419||123181871-0||genre,infobox book||68870||47584129-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||2505310||527376800-0||media_type,infobox book||36941155||511145457-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||11293569||285763483-0||accreditation,infobox school||11294153||225538506-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||6733017||306988944-0||accreditation,infobox school||8842981||283639237-0||accreditation,false,0.24519405494277097,0.0
+education,infobox book||5780538||61481529-0||language,infobox book||5780650||61483229-0||language,true,0.1381649007705521,0.20745094026625777
+education,infobox school||11947685||291688933-0||accreditation,infobox school||11961451||291666072-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11491772||285277442-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||9926885||285689755-0||accreditation,infobox school||9943002||123450382-0||accreditation,false,0.45242371997808994,0.0
+education,infobox book||1505560||57138751-0||genre_🔗_extractedLink0,infobox book||68870||47584129-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox book||4082||55457780-0||genre,infobox book||68857||47519287-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox school||8857981||333621458-0||accreditation,infobox school||8875927||333835515-0||accreditation,false,0.4106981883341638,0.07017761567541252
+education,infobox school||11243397||194669705-0||accreditation,infobox secondary school||11508095||177653515-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||6623299||285148460-0||accreditation,infobox school||8856319||276970771-0||accreditation,false,0.1799381109339057,0.0
+education,infobox school||11276916||285687892-0||accreditation,infobox school||12269793||145146231-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||3885908||687539508-0||media_type,infobox book||533770||687526178-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||11508298||286678185-0||accreditation,infobox secondary school||11509574||177754568-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11277632||285484371-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||34397833||471680728-0||enrollment_as_of,infobox school||34455176||472587744-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||4081||55457828-0||genre_🔗_extractedLink0,infobox book||5621134||59401094-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox secondary school||11507810||177695160-0||accreditation,infobox secondary school||11520322||177758905-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||16968932||206704299-0||type_🔗_extractedLink0,infobox secondary school||16233283||197445357-0||type_🔗_extractedLink1,false,0.1777188008456465,0.03508880783770626
+education,infobox school||6667497||276780990-0||accreditation,infobox school||8452955||181151765-0||accreditation,false,0.1799381109339057,0.0
+education,infobox school||40880567||583346210-0||conference,infobox school||41361798||586009415-0||conference,false,0.2130098025995897,0.0
+education,infobox book||1020773||87713273-0||release_date,infobox university||2160617||51360758-0||established,false,0.5456805377822072,0.0
+education,infobox school||11160218||283826180-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1036256||62609949-2||genre,infobox book||4584283||105272838-0||genre,false,0.18158874989873744,0.0
+education,infobox secondary school||11512297||177642565-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||11850778||286129089-0||accreditation,infobox secondary school||11632690||238058201-0||accreditation,false,0.23166405726183295,0.0
+education,infobox school||11276916||285687892-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11296648||229466349-0||accreditation,infobox secondary school||3994985||136213401-0||accreditation,false,0.2134043448105244,0.0
+education,infobox school||11290009||285706676-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11346477||283835285-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11492427||285298676-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||4594897||72682590-0||type,infobox secondary school||5655192||138723757-0||type,false,0.2071115290261793,0.0
+education,infobox school||11159989||283646196-0||accreditation,infobox school||11346477||283835285-0||accreditation,false,0.1864825321518151,0.0
+education,infobox book||1000311||59429619-0||genre_🔗_extractedLink0,infobox book||204232||55907258-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.22350173523211347
+education,infobox school||2885365||32603428-0||enrollment_as_of,infobox school||9046684||187377729-0||enrollment_as_of,false,0.1662086485454289,0.0
+education,infobox school||11242375||282782017-0||accreditation,infobox school||11511953||149666220-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox secondary school||2976774||87174959-0||type_🔗_extractedLink0,infobox secondary school||4181351||80518428-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox school||11491772||285277442-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11277792||285653492-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox book||14545||113068147-0||genre,infobox book||15343551||185870964-0||genre,false,0.6434226116267562,0.0
+education,infobox school||26393515||354809567-0||enrollment_as_of,infobox school||30099358||403044562-0||enrollment_as_of,false,0.16007048812550864,0.0
+education,infobox school||37024767||512699329-0||country,infobox university||484026||389104680-0||country,false,0.12017372313437259,0.0
+education,infobox secondary school||2867255||39988531-0||type,infobox secondary school||8518005||179653000-0||type,false,0.3233408935654847,0.03508880783770626
+education,infobox school||11108510||280860126-0||accreditation,infobox secondary school||11509981||176761327-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||34313959||470206559-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11289931||285859044-0||accreditation,infobox school||2306618||283591035-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||6274980||251190439-0||type,infobox school||9474961||270668531-0||type,false,0.15587041154369186,0.0
+education,infobox school||26061086||380789860-0||accreditation,infobox secondary school||17322103||108901843-0||accreditation,false,0.3475558001721314,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox school||11108623||280857758-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||2344416||281078023-0||accreditation,infobox secondary school||3371092||36320014-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11347054||283849488-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||4906053||283914403-0||accreditation,infobox school||9943002||123450382-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11415351||285310891-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||18237768||222983629-4||author,infobox book||18237768||222983629-4||author,false,0.21274605355336312,1.8509842142134527
+education,infobox school||11648757||189522920-0||country,infobox school||16804968||211721109-0||country,false,0.12845219657708284,0.0
+education,infobox book||15894908||200603279-0||genre_🔗_extractedLink0,infobox book||20390299||253987073-0||genre_🔗_extractedLink0,true,0.22225166223054682,0.3344770674851048
+education,infobox school||11293569||285763483-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||31448171||423223441-0||language,infobox book||32903764||443543212-0||language,false,0.1381649007705521,0.055216373738846664
+education,infobox book||1292785||42082104-0||genre,infobox book||58622||47519096-0||genre,true,0.15195654869402453,0.0
+education,infobox secondary school||3423819||161436213-0||type_🔗_extractedLink0,infobox secondary school||4906744||176797261-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox school||11278306||285487742-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||11160218||283826180-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10415963||119646251-0||genre,infobox book||916002||56807455-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||20390266||253986696-0||genre_🔗_extractedLink0,infobox book||20390299||253987073-0||genre_🔗_extractedLink0,true,0.22225166223054682,0.3344770674851048
+education,infobox school||11108256||280745687-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.21468522785083913,0.0
+education,infobox book||10697619||123180162-0||genre_🔗_extractedLink0,infobox book||10697740||123181323-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014211
+education,infobox school||11278700||276030465-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1292785||42082104-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.0
+education,infobox book||2059919||242873672-0||caption,infobox book||6613685||490678094-0||caption,false,0.18165138450001111,0.0
+education,infobox school||3433237||293925046-0||accreditation,infobox school||5546901||293985479-0||accreditation,false,0.23393457153304148,0.21053284702623756
+education,infobox school||11277632||285484371-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.10526642351311877
+education,infobox school||11108256||280745687-0||accreditation,infobox secondary school||11520557||177643169-0||accreditation,false,0.17959642001313286,0.10526642351311877
+education,infobox book||5842145||62299133-0||country,infobox secondary school||4027512||76364347-0||country,false,0.11684014861750064,0.0
+education,infobox school||10365651||182454606-0||schooltype,infobox school||2859554||217758129-0||schooltype,false,0.23393457153304148,0.0
+education,infobox secondary school||23990034||308084225-0||country,infobox secondary school||3526559||95878420-0||country,false,0.21978565034446035,0.0
+education,infobox book||10902339||126011237-0||media_type_🔗_extractedLink0,infobox book||29999||57315771-0||media_type_🔗_extractedLink0,false,0.1867057165337328,0.6141165391112178
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||18307489||223833012-0||genre,infobox book||18307630||223834379-0||genre,true,0.16332162490415136,0.18792255235025476
+education,infobox secondary school||2695731||83330615-0||country,infobox_university||253978||89048115-0||country,false,0.12302506643726109,0.0
+education,infobox book||10697740||123181323-0||genre,infobox book||1092478||55376559-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||6616129||347120828-0||accreditation,infobox school||6622445||220755827-0||accreditation,false,0.24519405494277097,0.0
+education,infobox school||11145292||283644191-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11347054||283849488-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10697619||123180162-0||genre,infobox book||53597||67480428-0||genre,false,0.15195654869402453,0.0
+education,infobox school||11511848||286511425-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||12269793||145146231-0||grades,infobox secondary school||3066936||48991189-0||grades,false,0.1590767796444877,0.0
+education,infobox book||236599||55715730-0||language,infobox book||3826722||73317410-0||language,false,0.1381649007705521,0.0
+education,infobox school||34394422||471623937-0||enrollment_as_of,infobox school||34405057||471801919-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11960740||199336570-0||accreditation,infobox school||12461639||193644171-0||accreditation,false,0.21762966061994896,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox university||11503612||213401342-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||44104660||629507804-0||enrollment_as_of,infobox secondary school||7911696||175405891-0||graduates_year,false,0.18791279835119573,0.10526642351311877
+education,infobox school||4457844||233363022-0||country,infobox university||645397||413875559-0||country,false,0.12302506643726109,0.07017761567541252
+education,infobox school||11295794||291215749-0||accreditation,infobox school||11339296||291177177-0||accreditation,false,0.2961233557727666,0.0
+education,infobox book||10697284||123176981-0||genre_🔗_extractedLink0,infobox book||4472851||123180666-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014212
+education,infobox school||11345683||283976667-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11159989||283646196-0||accreditation,infobox school||11277632||285484371-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||10116511||280850657-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||10697334||123177462-0||genre,infobox book||916002||56807455-0||genre,true,0.15195654869402453,0.19851325639781578
+education,infobox school||17245171||209916713-0||type,infobox secondary school||4906744||176797261-0||type,false,0.4573965956715891,0.03508880783770626
+education,infobox school||34243764||468897188-0||enrollment_as_of,infobox school||34454552||472579499-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11511953||149666220-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox secondary school||11278599||193432958-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.10526642351311877
+education,infobox school||11346147||283845627-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||3222149||287044972-0||accreditation,infobox school||6329549||178097884-0||accreditation,false,0.2822054255131724,0.03508880783770626
+education,infobox school||33673593||459573616-0||country,infobox school||8455189||353577500-0||country,false,0.12845219657708284,0.0
+education,infobox school||11142789||279851613-0||accreditation,infobox school||11238184||279649276-0||accreditation,false,0.24115842092692208,0.07017761567541252
+education,infobox school||11276916||285687892-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11666496||286132838-0||country,infobox school||9544516||230714672-0||country,false,0.12845219657708284,0.0
+education,infobox school||11347109||283913117-0||accreditation,infobox school||12269793||145146231-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10416018||119647190-0||genre,infobox book||4472851||123180666-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox secondary school||11229082||130897402-0||country,infobox secondary school||1400809||61764099-0||country,false,0.12188641052283465,0.03508880783770626
+education,infobox school||3421231||343081218-0||enrollment_as_of,infobox_university||1339581||130486487-0||enrollment_as_of,false,0.15385959962942142,0.14035523135082503
+education,infobox school||4187656||283910075-0||accreditation,infobox secondary school||11278599||193432958-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox university||5131453||53029988-0||type,infobox university||961817||71041418-0||type,false,0.14607245203519723,0.0
+education,infobox book||4310947||287666284-0||caption,infobox book||9273993||105159727-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11278306||285487742-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||4067130||285289863-0||accreditation,infobox secondary school||11278599||193432958-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||27301119||361205796-0||enrollment_as_of,infobox school||27538139||365000996-0||enrollment_as_of,false,0.1498191277289286,0.0
+education,infobox school||11290009||285706676-0||accreditation,infobox school||11346477||283835285-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10307534||130230948-0||caption,infobox book||16722252||243805012-0||caption,false,0.18165138450001111,0.0
+education,infobox school||10116511||280850657-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11888814||291735092-0||accreditation,infobox school||11947416||291629073-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||204232||55907258-0||genre_🔗_extractedLink0,infobox book||4081||55457828-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox university||44157005||630291534-0||chancellor,infobox university||44272139||632033593-0||chancellor,false,0.675327100191619,0.03508880783770626
+education,infobox school||11159989||283646196-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11277632||285484371-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11520144||286649336-0||accreditation,infobox secondary school||11520322||177758905-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||68870||47584129-0||genre_🔗_extractedLink0,infobox book||71480||47583245-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11161262||283661591-0||grades,infobox school||11278700||276030465-0||grades,false,0.16802465304016148,0.14035523135082503
+education,infobox secondary school||4297348||42499778-0||grades,infobox secondary school||4819586||81486020-0||grades,false,0.19827194563756684,0.0
+education,infobox secondary school||1731151||56967746-0||type_🔗_extractedLink0,infobox secondary school||4906744||176797261-0||type_🔗_extractedLink0,false,0.1777188008456465,0.03508880783770626
+education,infobox school||4681868||276585030-0||accreditation,infobox school||4976496||279203419-0||accreditation,false,0.1864825321518151,0.0
+education,infobox school||12566245||293520555-0||accreditation,infobox school||14503146||293523940-0||accreditation,false,0.23393457153304148,0.0
+education,infobox school||11108623||280857758-0||accreditation,infobox school||11520015||286559606-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||2059919||242873672-0||caption,infobox book||249452||445840595-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox school||11346147||283845627-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||34405057||471801919-0||enrollment_as_of,infobox school||34455176||472587744-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11108623||280857758-0||accreditation,infobox school||11120943||286561615-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||10003936||170819573-0||accreditation,infobox school||8813674||99211797-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||5876703||73949725-0||type,infobox secondary school||10779843||139697003-0||type,false,0.15587041154369186,0.0
+education,infobox book||10697525||123179126-0||genre,infobox book||10697578||123179668-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox school||10116511||280850657-0||accreditation,infobox school||10411399||280853217-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox scientist||25587550||334597620-0||citizenship,infobox scientist||26635024||351135160-0||nationality,false,0.13927752948720412,0.0
+education,infobox secondary school||11507810||177695160-0||accreditation,infobox secondary school||11508095||177653515-0||accreditation,false,0.17959642001313286,0.19567031847268174
+education,infobox school||34243764||468897188-0||enrollment_as_of,infobox school||34473845||472866644-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11491772||285277442-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||1954617||70510572-0||grades,infobox secondary school||1999105||53354941-0||grades,false,0.146468332318086,0.0
+education,infobox book||739474||60462533-0||country,infobox secondary school||9682050||110496887-0||country,false,0.11473390734881975,0.0
+education,infobox school||11511848||286511425-0||accreditation,infobox secondary school||11507810||177695160-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11907360||291527279-0||accreditation,infobox school||12466752||291533555-0||accreditation,false,0.21762966061994896,0.0
+education,infobox school||11277632||285484371-0||accreditation,infobox school||11346477||283835285-0||accreditation,true,0.15139372431410883,0.0
+education,infobox school||27211251||359950481-0||conference,infobox secondary school||5510631||95568490-0||conference,false,0.2130098025995897,0.0
+education,infobox_university||10673182||122888432-0||established,infobox_university||11471057||134137603-0||established,true,0.36914254014211806,0.18245093533978057
+education,infobox secondary school||11508471||177485449-0||accreditation,infobox secondary school||11512297||177642565-0||accreditation,false,0.17959642001313286,0.07017761567541252
+education,infobox university||16138032||196322691-0||image,infobox_university||16137189||196314082-0||image,false,0.3016243479464708,0.10188089143971794
+education,infobox scientist||256322||205555129-0||residence,infobox scientist||677297||195323076-0||nationality,false,0.1527880873532647,0.0
+education,infobox school||1685136||282775839-0||accreditation,infobox secondary school||11512297||177642565-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||8807104||99121948-0||type,infobox secondary school||4181351||80518428-0||type,false,0.2641897076508296,0.0
+education,infobox book||664301||85043086-0||country,infobox scientist||5441003||208395647-0||residence,false,0.11684014861750064,0.0
+education,infobox school||4932626||92170870-0||accreditation,infobox school||8117017||280744235-0||accreditation,false,0.18875982899652735,0.0
+education,infobox school||6615750||346541510-0||accreditation,infobox school||6622445||220755827-0||accreditation,false,0.24519405494277097,0.0
+education,infobox school||11346477||283835285-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||11507810||177695160-0||accreditation,infobox secondary school||11508471||177485449-0||accreditation,false,0.17959642001313286,0.0
+education,infobox_university||18096606||293666087-0||image,infobox_university||18096700||293771488-0||image,false,0.43979358139762953,0.0
+education,infobox school||2859554||217758129-0||schooltype,infobox school||5646720||299336719-0||type,false,0.23393457153304148,0.0
+education,infobox book||187644||105819060-0||caption,infobox book||1990956||242870935-0||caption,true,0.18165138450001111,0.0
+education,infobox school||34264690||469283288-0||enrollment_as_of,infobox school||34394422||471623937-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||34406208||471822725-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||8474589||333602311-0||country,infobox school||9544516||230714672-0||country,false,0.12845219657708284,0.0
+education,infobox school||34394422||471623937-0||enrollment_as_of,infobox school||34476468||472906493-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||5750096||123413572-0||country,infobox book||8343922||181312035-0||country,false,0.2366092726365694,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox school||11511848||286511425-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||18695907||229495492-0||country,infobox book||8599897||201884064-0||country,false,0.11684014861750064,0.0
+education,infobox school||11161262||283661591-0||grades,infobox school||11854695||286454437-0||grades,false,0.16802465304016148,0.07017761567541252
+education,infobox book||23281||41638378-0||language,infobox book||4777482||80432975-0||language,false,0.1381649007705521,0.0
+education,infobox book||35825142||527303227-0||media_type,infobox book||37683894||523786133-0||media_type,false,0.16565927220095653,0.0
+education,infobox book||1097522||67471508-0||genre,infobox book||59850||67696858-0||genre,false,0.15195654869402453,0.0
+education,infobox school||11346354||283860160-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||5207224||200535080-0||country,infobox secondary school||9474353||198743982-0||country,false,0.12301238079153,0.0
+education,infobox book||205004||52588768-0||genre,infobox book||5698295||60416392-0||genre,false,0.17621651006233094,0.0
+education,infobox school||9107521||155305215-0||country,infobox school||9158523||237334736-0||country,false,0.1365858637115761,0.0
+education,infobox book||1505560||57138751-0||genre_🔗_extractedLink0,infobox book||58622||47519096-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11293569||285763483-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||7227559||218523185-0||type,infobox school||9474961||270668531-0||type,false,0.15587041154369186,0.0
+education,infobox book||44449||72487511-0||genre,infobox book||68871||47583090-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11520144||286649336-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||5996249||286483222-0||accreditation,infobox school||8117017||280744235-0||accreditation,false,0.18875982899652735,0.0
+education,infobox book||10697578||123179668-0||genre,infobox book||4081||55457828-0||genre,false,0.15195654869402453,0.10526642351311877
+education,infobox book||10415963||119646251-0||genre,infobox book||68863||47583658-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||5750420||94285039-0||country,infobox book||5946543||181309423-0||country,false,0.2366092726365694,0.0
+education,infobox school||11277632||285484371-0||accreditation,infobox school||11278700||276030465-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||18237768||222983629-4||author,infobox book||18237768||222983629-4||author,false,0.21274605355336312,1.8509842142134527
+education,infobox secondary school||6585406||70891144-0||country,infobox secondary school||7481814||86007846-0||country,false,0.1739077201290798,0.0
+education,infobox book||20020033||248914791-0||language,infobox book||72018||150368678-0||language,false,0.1381649007705521,0.0
+education,infobox school||15115760||182960609-0||type,infobox school||2983203||144834538-0||type,false,0.20302671484189833,0.03508880783770626
+education,infobox book||739474||60462533-0||country,infobox university||24089357||56602891-0||country,false,0.11473390734881975,0.0
+education,infobox school||2003816||506372390-0||country,infobox school||24248952||561700041-0||country,false,0.14380375573155466,0.0
+education,infobox secondary school||6100162||147004532-0||country,infobox uk school||1246890||188917214-0||country,false,0.2643236232680114,0.07017761567541252
+education,infobox book||30761||55080179-0||series,infobox book||523761||55082642-0||series,false,0.38434077519381327,0.0
+education,infobox school||16457900||202204113-0||type_🔗_extractedLink0,infobox school||9474961||270668531-0||type_🔗_extractedLink0,false,0.1777188008456465,0.15587041154369186
+education,infobox book||12717950||210937844-0||caption,infobox book||249452||445840595-0||caption,false,0.18165138450001111,0.0
+education,infobox book||1292785||42082104-0||genre,infobox book||68863||47583658-0||genre,true,0.15195654869402453,0.0
+education,infobox school||34243830||468898662-0||enrollment_as_of,infobox school||34405057||471801919-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||5453139||59087600-0||caption,infobox book||6613685||490678094-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11415351||285310891-0||accreditation,infobox secondary school||11278599||193432958-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||6662159||105726265-0||accreditation,infobox school||8855984||350251538-0||accreditation,true,0.2724412306336661,0.0
+education,infobox school||11108623||280857758-0||accreditation,infobox school||11511953||149666220-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11160819||283818078-0||accreditation,infobox school||11346354||283860160-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||4539262||346527126-0||accreditation,infobox school||6661922||221522754-0||accreditation,false,0.2321075305957369,0.0
+education,infobox school||11120943||286561615-0||accreditation,infobox secondary school||11509574||177754568-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox school||11345956||283856419-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10416018||119647190-0||country,infobox book||10697578||123179668-0||country,true,0.11758525065170825,0.4191874230098224
+education,infobox school||2504671||172771243-0||type_🔗_extractedLink0,infobox school||3795150||225166752-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox school||11294153||225538506-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||1990956||242870935-0||caption,infobox book||22321291||282410855-0||caption,false,0.18165138450001111,0.0
+education,infobox book||17414||96509447-0||genre,infobox book||3112773||84291615-0||genre,false,0.28605730556178866,0.20648582896054557
+education,infobox school||3020099||168919047-0||head_label,infobox_university||5909990||63101213-0||head_label,false,0.1658148172185632,0.03508880783770626
+education,infobox book||337252||54692824-0||genre,infobox book||470889||94425668-0||genre,true,0.17621651006233094,0.0
+education,infobox school||34454552||472579499-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox school||11511953||149666220-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox school||12288139||330802003-0||country,infobox school||24360826||320927675-0||country,false,0.1365858637115761,0.0
+education,infobox school||6072183||255909792-0||accreditation,infobox secondary school||9784578||111767151-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||11511953||149666220-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11296648||229466349-0||accreditation,infobox school||11339296||291177177-0||accreditation,false,0.2134043448105244,0.0
+education,infobox book||302301||62489734-0||country,infobox book||4623256||47686674-0||country,true,0.055216373738846664,0.0
+education,infobox secondary school||8404447||96718695-0||accreditation,infobox secondary school||9405002||233727166-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||7961677||263866361-0||enrollment_as_of,infobox secondary school||13101820||155754013-0||established,false,0.2115432214825426,0.0
+education,infobox school||2022556||58242490-0||country,infobox school||8474589||333602311-0||country,false,0.12845219657708284,0.0
+education,infobox book||18237768||222983629-4||author,infobox book||18237768||222983629-4||author,false,0.21274605355336312,1.8509842142134527
+education,infobox school||11278306||285487742-0||accreditation,infobox school||11347109||283913117-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||2125389||292789747-0||enrollment_as_of,infobox school||36931834||510998773-4||enrollment_as_of,false,0.21033631078350845,0.0
+education,infobox book||58665||47583831-0||genre,infobox book||68863||47583658-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||24540946||317428738-0||media_type,infobox book||24578140||317952871-0||media_type,false,0.21595022480675585,0.0
+education,infobox book||202758||499685344-0||media_type,infobox book||37997288||529209516-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||11290009||285706676-0||accreditation,infobox school||11346354||283860160-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||2504671||172771243-0||type_🔗_extractedLink0,infobox school||9474961||270668531-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox school||12269793||145146231-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||4118412||40171860-0||genre,infobox book||740793||60681082-0||genre,false,0.18158874989873744,0.20822979299305266
+education,infobox school||16036607||461435065-0||conference,infobox school||34375566||471291422-0||conference,false,0.2130098025995897,0.0
+education,infobox school||11346477||283835285-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||204232||55907258-0||genre_🔗_extractedLink0,infobox book||68871||47583090-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.07331125200842553
+education,infobox book||1092478||55376559-0||genre_🔗_extractedLink0,infobox book||58665||47583831-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11888814||291735092-0||accreditation,infobox school||27598104||34392539-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||11347109||283913117-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,true,0.15139372431410883,0.0
+education,infobox book||614064||98262594-0||country,infobox book||9633523||109898439-0||country,false,0.11684014861750064,0.0
+education,infobox school||11160819||283818078-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,true,0.15139372431410883,0.0
+education,infobox school||11347109||283913117-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,true,0.15139372431410883,0.0
+education,infobox secondary school||1488821||37482212-0||country,infobox secondary school||1907678||40530807-0||country,false,0.11758525065170825,0.0
+education,infobox school||34453677||472563034-0||enrollment_as_of,infobox secondary school||4957790||233348530-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||10415963||119646251-0||genre,infobox book||58622||47519096-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11835602||286446036-0||accreditation,infobox school||11850778||286129089-0||accreditation,false,0.29845614086384464,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||215316||77313262-0||genre,true,0.15195654869402453,0.03508880783770626
+education,infobox book||12861011||153316506-0||caption,infobox book||22321291||282410855-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox school||11175350||281564102-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11511848||286511425-0||accreditation,infobox secondary school||11512058||177645590-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||1044528||69132116-0||language,infobox book||5698295||60416392-0||language,true,0.1381649007705521,0.055216373738846664
+education,infobox school||12566245||293520555-0||accreditation,infobox school||3433237||293925046-0||accreditation,false,0.23393457153304148,0.10526642351311877
+education,infobox book||22376662||283281090-0||country,infobox book||664301||85043086-0||country,false,0.11684014861750064,0.0
+education,infobox school||10116511||280850657-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||10697619||123180162-0||genre,infobox book||68871||47583090-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11346147||283845627-0||accreditation,infobox school||11347054||283849488-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11947685||291688933-0||accreditation,infobox secondary school||9784578||111767151-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||9570949||109017747-0||type_🔗_extractedLink0,infobox secondary school||10389026||119274173-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox book||3839954||49888707-0||genre_🔗_extractedLink0,infobox book||5621134||59401094-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.0
+education,infobox school||20937247||261684239-0||schooltype,infobox secondary school||6337927||68494061-0||type,false,0.23393457153304148,0.0
+education,infobox book||26388977||347179401-0||release_date,infobox school||7961677||263866361-0||enrollment_as_of,false,0.2115432214825426,0.0
+education,infobox secondary school||494658||108570854-0||established,infobox_university||2579205||79734549-0||established,false,0.3421492032302481,0.03508880783770626
+education,infobox school||3763008||283781097-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.10526642351311877
+education,infobox school||34405343||471807106-0||enrollment_as_of,infobox school||34718895||476591308-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox secondary school||11520557||177643169-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||2057934||154169420-0||pages,infobox book||5768015||154176141-0||pages,false,0.2851675587695453,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||37997288||529209516-0||media_type,infobox book||40771525||576800657-0||media_type,true,0.16565927220095653,0.0
+education,infobox book||10415963||119646251-0||genre,infobox book||5621134||59401094-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||10697284||123176981-0||genre,infobox book||4082||55457780-0||genre,false,0.15195654869402453,0.23360206423552204
+education,infobox secondary school||1839872||54158296-0||type_🔗_extractedLink2,infobox secondary school||4214932||73727892-0||type_🔗_extractedLink4,false,0.2948330120485137,0.1176491919129558
+education,infobox book||10697284||123176981-0||genre,infobox book||71480||47583245-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||19624895||243249525-0||grades,infobox secondary school||22242795||281158184-0||grades,false,0.4366092621247861,0.0
+education,infobox school||2549364||280943934-0||accreditation,infobox school||3947661||283638837-0||accreditation,false,0.15139372431410883,0.0
+education,infobox scientist||8228144||238346978-0||caption,infobox scientist||8228144||238346978-0||name,true,0.5133955690356353,2.596726456763796
+education,infobox school||11108623||280857758-0||accreditation,infobox secondary school||11509574||177754568-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||4681868||276585030-0||accreditation,infobox school||4884695||276602954-0||accreditation,false,0.1864825321518151,0.07017761567541252
+education,infobox book||2942531||54524981-0||genre_🔗_extractedLink1,infobox book||5698295||60416392-0||genre_🔗_extractedLink0,false,0.18068057432842927,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11175350||281564102-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||23046250||293748917-0||country,infobox school||23494627||300339126-0||country,false,0.15021115687136197,0.14035523135082503
+education,infobox school||8956303||345066855-0||accreditation,infobox school||8991203||349466046-0||accreditation,false,0.2582025095935314,0.0
+education,infobox book||53597||67480428-0||genre,infobox book||68863||47583658-0||genre,false,0.15195654869402453,0.0
+education,infobox school||3440867||283977561-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,true,0.15139372431410883,0.10526642351311877
+education,infobox school||11276916||285687892-0||accreditation,infobox school||11346354||283860160-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11511848||286511425-0||accreditation,infobox school||11520015||286559606-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||11175350||281564102-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||12461639||193644171-0||accreditation,infobox school||12461882||291616317-0||accreditation,false,0.21762966061994896,0.0
+education,infobox school||23485871||300186946-0||country,infobox school||6111133||276747894-0||country,false,0.1301648839655449,0.0
+education,infobox book||20294090||252795936-0||publisher,infobox book||20331757||253269917-0||publisher,false,0.19195872000656014,0.0
+education,infobox secondary school||13805405||165614042-0||country,infobox university||7305086||353366560-0||country,false,0.12017372313437259,0.0
+education,infobox school||6644076||354758652-0||accreditation,infobox school||8456133||353587871-0||accreditation,false,0.2822054255131724,0.0
+education,infobox book||1443090||57106750-0||language,infobox book||4097091||39923494-0||language,false,0.1381649007705521,0.055216373738846664
+education,infobox book||1516774||672102084-0||media_type,infobox book||533770||687526178-0||media_type,false,0.16565927220095653,0.0
+education,infobox secondary school||10389026||119274173-0||type_🔗_extractedLink0,infobox secondary school||4181351||80518428-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox_university||274804||90170159-0||image_size,infobox_university||28486339||47749344-0||image_size,false,0.14209900507330747,0.0
+education,infobox school||34454552||472579499-0||enrollment_as_of,infobox school||34455176||472587744-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||3658722||219542429-0||country,infobox school||5207224||200535080-0||country,false,0.12301238079153,0.0
+education,infobox book||1356552||558858631-0||media_type,infobox book||37724150||575918853-0||media_type,false,0.16565927220095653,0.0
+education,infobox book||210455||91093287-0||country,infobox university||19817390||49142495-0||country,false,0.11684014861750064,0.0
+education,infobox school||9943002||123450382-0||accreditation,infobox secondary school||11347320||238914866-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11960740||199336570-0||accreditation,infobox school||12466752||291533555-0||accreditation,false,0.21762966061994896,0.0
+education,infobox book||1505560||57138751-0||genre_🔗_extractedLink0,infobox book||71479||47583457-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11415351||285310891-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11277632||285484371-0||accreditation,infobox school||11347054||283849488-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11491772||285277442-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||15377689||406889533-0||country,infobox school||22062872||406888931-0||country,false,0.3803460209510036,0.21053284702623756
+education,infobox university||25123244||326693522-0||image,infobox university||27964090||372248888-0||image,false,0.43067655807339306,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||53597||67480428-0||genre,false,0.15195654869402453,0.0
+education,infobox school||10116511||280850657-0||accreditation,infobox secondary school||11508095||177653515-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox school||3440867||283977561-0||accreditation,infobox school||3763008||283781097-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||34243830||468898662-0||enrollment_as_of,infobox school||34397833||471680728-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11520144||286649336-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||1505560||57138751-0||genre,infobox book||58622||47519096-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox school||11346147||283845627-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||3678244||110368779-0||accreditation,infobox secondary school||3994985||136213401-0||accreditation,false,0.2961233557727666,0.0
+education,infobox book||5750096||123413572-0||country,infobox book||5750420||94285039-0||country,false,0.2366092726365694,0.0
+education,infobox secondary school||4902631||55499489-0||country,infobox secondary school||6585406||70891144-0||country,false,0.1739077201290798,0.0
+education,infobox university||305252||21226690-0||country,infobox_university||16472851||199974792-0||country,false,0.14194077880139247,0.0
+education,infobox school||6644679||354784949-0||accreditation,infobox school||8825427||354526432-0||accreditation,false,0.2822054255131724,0.0
+education,infobox school||11276916||285687892-0||accreditation,infobox school||11346477||283835285-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11339226||291252679-0||accreditation,infobox school||11341288||290009828-0||accreditation,false,0.3134985804361461,0.0
+education,infobox school||37024767||512699329-0||country,infobox university||7305086||353366560-0||country,false,0.12017372313437259,0.0
+education,infobox school||27537614||364997987-0||enrollment_as_of,infobox school||27563261||365382132-0||enrollment_as_of,false,0.2234083371094996,0.0
+education,infobox school||6649065||285851956-0||accreditation,infobox school||6752961||332322347-0||accreditation,false,0.1799381109339057,0.0
+education,infobox school||11520144||286649336-0||accreditation,infobox secondary school||11508095||177653515-0||accreditation,false,0.21468522785083913,0.07017761567541252
+education,infobox school||34377322||471325672-0||enrollment_as_of,infobox school||34473845||472866644-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||2059919||242873672-0||caption,infobox book||5453139||59087600-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox school||11294153||225538506-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||34396538||471657036-0||enrollment_as_of,infobox school||34473845||472866644-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11059425||281075478-0||accreditation,infobox secondary school||11293810||193500099-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11276916||285687892-0||accreditation,infobox school||11290009||285706676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||8404447||96718695-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||21061695||263644409-0||enrollment_as_of,infobox school||3526424||235309433-0||enrollment_as_of,false,0.14585490137590945,0.0
+education,infobox school||16457900||202204113-0||type_🔗_extractedLink0,infobox school||3795150||225166752-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox school||9570736||109014833-0||type,infobox university||9597888||109388043-0||type,false,0.15587041154369186,0.0
+education,infobox school||11492427||285298676-0||accreditation,infobox school||4067130||285289863-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||18695907||229495492-0||country,infobox book||614064||98262594-0||country,false,0.11684014861750064,0.0
+education,infobox book||145627||45117661-0||release_date,infobox_university||5291239||167509004-0||established,false,0.2862062135049739,0.0
+education,infobox book||4082||55457780-0||genre,infobox book||916002||56807455-0||genre,false,0.15195654869402453,0.23360206423552204
+education,infobox school||11160819||283818078-0||accreditation,infobox school||4067130||285289863-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1491166||52557564-0||genre,infobox book||337252||54692824-0||genre,false,0.17621651006233094,0.0
+education,infobox school||6661922||221522754-0||accreditation,infobox secondary school||5094897||136147642-0||accreditation,false,0.2321075305957369,0.0
+education,infobox school||11907360||291527279-0||accreditation,infobox school||12461882||291616317-0||accreditation,false,0.21762966061994896,0.0
+education,infobox book||1560109||48148846-0||language,infobox book||3071038||91405402-0||language,false,0.1381649007705521,0.0
+education,infobox secondary school||11512453||177691634-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11520144||286649336-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||3440867||283977561-0||enrollment_as_of,infobox school||5546901||293985479-0||enrollment_as_of,false,0.14890993508215888,0.07017761567541252
+education,infobox school||16968932||206704299-0||type_🔗_extractedLink0,infobox school||2504671||172771243-0||type_🔗_extractedLink0,false,0.1777188008456465,0.0
+education,infobox book||16722252||243805012-0||caption,infobox book||7051390||93675741-0||caption,false,0.18165138450001111,0.0
+education,infobox book||2742705||63740219-0||genre,infobox book||2856954||58560291-0||genre,true,0.30102999566398114,0.24762129701285784
+education,infobox secondary school||11494653||134444003-0||accreditation,infobox secondary school||6602650||244511700-0||accreditation,false,0.4218343622537839,0.0
+education,infobox school||11509405||286648102-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||10697525||123179126-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||35825142||527303227-0||media_type,infobox book||40771525||576800657-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||6662159||105726265-0||accreditation,infobox school||8775401||353203373-0||accreditation,false,0.2724412306336661,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||68857||47519287-0||genre,infobox book||68863||47583658-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||27598104||34392539-0||accreditation,infobox school||8813674||99211797-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||1000311||59429619-0||genre_🔗_extractedLink0,infobox book||4081||55457828-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox school||11277792||285653492-0||accreditation,infobox school||11358182||283573513-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox secondary school||11520322||177758905-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11145292||283644191-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11120943||286561615-0||accreditation,infobox school||11509405||286648102-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox book||18237768||222983629-4||language,infobox book||18237768||222983629-4||language,false,0.1381649007705521,1.8509842142134527
+education,infobox secondary school||11508471||177485449-0||accreditation,infobox secondary school||9797286||177652455-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11290009||285706676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11242375||282782017-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||18237768||222983629-4||author,infobox book||18237768||222983629-4||author,false,0.21274605355336312,1.8509842142134527
+education,infobox school||11278306||285487742-0||accreditation,infobox school||3763008||283781097-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox university||4974333||84383382-0||established,infobox_university||4763047||53037596-0||established,false,0.27813213719184443,0.0
+education,infobox school||6752961||332322347-0||accreditation,infobox school||7579969||281326522-0||accreditation,false,0.1799381109339057,0.0
+education,infobox school||11947416||291629073-0||accreditation,infobox school||666651||291630120-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox school||11120943||286561615-0||accreditation,false,0.17959642001313286,0.0
+education,infobox secondary school||11346980||264332462-0||accreditation,infobox secondary school||11347320||238914866-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11666496||286132838-0||accreditation,infobox school||11850778||286129089-0||accreditation,false,0.29845614086384464,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||3066936||48991189-0||country,infobox secondary school||4455347||106197509-1||country,false,0.12017372313437259,0.0
+education,infobox school||7961677||263866361-0||enrollment_as_of,infobox_university||20340372||295127574-0||established,false,0.2115432214825426,0.0
+education,infobox school||6661922||221522754-0||accreditation,infobox secondary school||9003633||128354957-0||accreditation,false,0.2321075305957369,0.0
+education,infobox school||11107315||280029440-0||accreditation,infobox school||11107679||280026130-0||accreditation,false,0.1917414043316582,0.0
+education,infobox school||11161408||283815114-0||accreditation,infobox school||11358182||283573513-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||19418228||240123213-0||genre,infobox book||19433458||240357062-0||genre,false,0.17718382013555792,0.0
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11276916||285687892-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||12677828||276833151-0||accreditation,infobox school||3658722||219542429-0||accreditation,false,0.23393457153304148,0.0
+education,infobox book||4118550||40173205-0||genre,infobox book||4613130||46745102-0||genre,false,0.18158874989873744,0.20822979299305266
+education,infobox school||9003846||350023378-0||type,infobox secondary school||9003521||322063635-0||type,false,0.22143520373721753,0.03508880783770626
+education,infobox school||7200053||230798767-0||schooltype_🔗_extractedLink0,infobox secondary school||16233283||197445357-0||type_🔗_extractedLink1,false,0.1777188008456465,0.03508880783770626
+education,infobox school||8632419||218452923-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.3238812127119193,0.0
+education,infobox school||11521966||295950098-0||country,infobox school||8474589||333602311-0||country,false,0.12845219657708284,0.0
+education,infobox school||34243830||468898662-0||enrollment_as_of,infobox school||34455176||472587744-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11243397||194669705-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||2306618||283591035-0||accreditation,infobox school||9926885||285689755-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11508298||286678185-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||12677828||276833151-0||accreditation,infobox school||14502767||293765240-0||accreditation,false,0.23393457153304148,0.0
+education,infobox book||19858565||246473433-0||genre_🔗_extractedLink0,infobox book||20390266||253986696-0||genre_🔗_extractedLink0,true,0.22225166223054682,0.3344770674851048
+education,infobox school||11279459||285765042-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||9474961||270668531-0||type,infobox university||2679128||176065514-0||type,false,0.15587041154369186,0.0
+education,infobox school||11294153||225538506-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||11520557||177643169-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||6274980||251190439-0||type,infobox secondary school||18534479||227127949-0||type,false,0.15587041154369186,0.0
+education,infobox book||1000311||59429619-0||genre_🔗_extractedLink0,infobox book||44449||72487511-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||27156824||359148563-0||enrollment_as_of,infobox school||34313959||470206559-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox uk school||14496557||174807500-0||established,infobox_university||4451010||95378844-0||established,false,0.24465054211822598,0.0
+education,infobox school||11398829||285363379-0||country,infobox school||11961380||291647984-0||country,false,0.12845219657708284,0.0
+education,infobox book||1505560||57138751-0||genre_🔗_extractedLink0,infobox book||71480||47583245-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox scientist||17216551||217753825-0||citizenship,infobox scientist||17216551||217753825-0||residence,false,0.5546124905491953,2.0
+education,infobox school||17727956||232238330-0||type,infobox secondary school||18534479||227127949-0||type,false,0.15587041154369186,0.0
+education,infobox school||11290009||285706676-0||accreditation,infobox school||11346147||283845627-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11277792||285653492-0||accreditation,infobox secondary school||11278599||193432958-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||11491772||285277442-0||accreditation,infobox secondary school||8404447||96718695-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||19418228||240123213-0||genre,infobox book||19433847||240361633-0||genre,false,0.17718382013555792,0.0
+education,infobox uk school||29374760||616095589-0||head_label,infobox uk school||7260260||183671953-0||head_label,false,0.15529744842361354,0.0
+education,infobox book||1149427||62880870-0||language,infobox book||2613883||63902304-0||language,false,0.1381649007705521,0.0
+education,infobox school||1685136||282775839-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11108623||280857758-0||accreditation,infobox school||11509405||286648102-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||1516774||672102084-0||media_type,infobox book||37807928||598616232-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||10116511||280850657-0||accreditation,infobox school||11520015||286559606-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||10697740||123181323-0||genre,infobox book||58622||47519096-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||1092478||55376559-0||genre_🔗_extractedLink0,infobox book||44449||72487511-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox secondary school||9682050||110496887-0||country,infobox university||24089357||56602891-0||country,false,0.11473390734881975,0.0
+education,infobox book||37724150||575918853-0||media_type,infobox book||38563327||589413708-0||media_type,false,0.16565927220095653,0.0
+education,infobox book||10416018||119647190-0||genre,infobox book||10697578||123179668-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox school||11345956||283856419-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11293569||285763483-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1092478||55376559-0||genre,infobox book||68857||47519287-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11520015||286559606-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||11158569||283774868-0||accreditation,infobox school||3763008||283781097-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||1507230||280913868-0||accreditation,infobox_university||1339581||130486487-0||accreditation,false,0.3333964293976011,0.07017761567541252
+education,infobox school||10328769||282716795-0||enrollment_as_of,infobox secondary school||4385562||43677267-0||enrollment_as_of,false,0.14585490137590945,0.0
+education,infobox school||11243397||194669705-0||accreditation,infobox secondary school||11507810||177695160-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11114583||129161127-0||enrollment_as_of,infobox school||986754||214786159-0||enrollment_as_of,false,0.14544057663744664,0.0
+education,infobox school||8991093||349469445-0||accreditation,infobox secondary school||9003485||169768923-0||accreditation,false,0.2582025095935314,0.0
+education,infobox book||2613883||63902304-0||language,infobox book||7049805||89051167-0||language,false,0.1381649007705521,0.0
+education,infobox school||11339226||291252679-0||accreditation,infobox school||11340585||290006660-0||accreditation,false,0.3134985804361461,0.0
+education,infobox_university||490310||36514820-0||athletics_🔗_extractedLink1,infobox_university||582163||49071501-0||athletics_🔗_extractedLink1,false,0.2704757978389565,0.0
+education,infobox book||11993928||173429847-0||caption,infobox book||187644||105819060-0||caption,false,0.18165138450001111,0.0
+education,infobox secondary school||4098012||62474920-0||type,infobox secondary school||8518005||179653000-0||type,false,0.3233408935654847,0.0
+education,infobox school||11961451||291666072-0||accreditation,infobox secondary school||9784578||111767151-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||10697578||123179668-0||genre,infobox book||10697740||123181323-0||genre,true,0.15195654869402453,0.3848161249675061
+education,infobox university||5131453||53029988-0||type,infobox university||72599||54560887-0||type,false,0.14607245203519723,0.0
+education,infobox school||11279459||285765042-0||accreditation,infobox school||11290009||285706676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11108623||280857758-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||3904760||50145547-0||language,infobox book||5811788||61850637-0||language,false,0.1381649007705521,0.0
+education,infobox book||10416018||119647190-0||genre,infobox book||10697619||123180162-0||genre,true,0.15195654869402453,0.38481612496750617
+education,infobox school||11243397||194669705-0||accreditation,infobox secondary school||11520557||177643169-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||5209692||344269995-0||type,infobox school||8474589||333602311-0||type,false,0.22143520373721753,0.0
+education,infobox book||10697740||123181323-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||10697578||123179668-0||genre,infobox book||19278419||123181871-0||genre,true,0.15195654869402453,0.3848161249675061
+education,infobox school||10411399||280853217-0||accreditation,infobox secondary school||11508471||177485449-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox book||210518||55084001-0||series,infobox book||235094||55083168-0||series,false,0.38434077519381327,0.0
+education,infobox book||58622||47519096-0||genre,infobox book||68870||47584129-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11160819||283818078-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11346147||283845627-0||accreditation,infobox school||11491772||285277442-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||8518005||179653000-0||country,infobox secondary school||8632360||165890783-0||country,false,0.14194077880139247,0.03508880783770626
+education,infobox school||11160819||283818078-0||accreditation,infobox school||11175350||281564102-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11294153||225538506-0||accreditation,infobox secondary school||8404447||96718695-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||8855909||350248236-0||accreditation,infobox school||8856061||350259827-0||accreditation,false,0.2724412306336661,0.0
+education,infobox book||18695907||229495492-0||language,infobox book||1935756||79394409-0||language,false,0.1381649007705521,0.0
+education,infobox book||5453139||59087600-0||caption,infobox book||591370||243189042-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11345683||283976667-0||accreditation,infobox school||4187656||283910075-0||accreditation,false,0.15139372431410883,0.0
+education,infobox university||226739||122888744-0||state,infobox_university||345062||61359921-0||state,true,0.3362435127053466,0.0
+education,infobox school||11339296||291177177-0||accreditation,infobox secondary school||3678244||110368779-0||accreditation,false,0.2961233557727666,0.0
+education,infobox book||1092478||55376559-0||genre_🔗_extractedLink0,infobox book||68871||47583090-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox book||23281||41638378-0||country,infobox book||562456||64440437-0||country,false,0.11684014861750064,0.1381649007705521
+education,infobox school||11947685||291688933-0||accreditation,infobox school||11963427||291694086-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||10003936||170819573-0||accreditation,infobox school||27598104||34392539-0||accreditation,false,0.22059179387632186,0.0
+education,infobox uk school||15967275||194194742-0||lea,infobox uk school||17007410||206707311-0||lea,true,0.7317065537373741,0.0
+education,infobox secondary school||11508095||177653515-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||11415351||285310891-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11145292||283644191-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||3664327||291102338-0||accreditation,infobox secondary school||3994985||136213401-0||accreditation,false,0.2961233557727666,0.0
+education,infobox school||11279459||285765042-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1505560||57138751-0||genre,infobox book||68863||47583658-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox school||11512188||286493314-0||accreditation,infobox school||1685136||282775839-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11947416||291629073-0||accreditation,infobox school||8813674||99211797-0||accreditation,false,0.22059179387632186,0.03508880783770626
+education,infobox school||11293569||285763483-0||accreditation,infobox school||3763008||283781097-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11511953||149666220-0||accreditation,infobox school||11520144||286649336-0||accreditation,false,0.17959642001313286,0.07017761567541252
+education,infobox school||2549364||280943934-0||accreditation,infobox secondary school||11347320||238914866-0||accreditation,false,0.15139372431410883,0.0
+education,infobox secondary school||2896119||100216743-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||2344416||281078023-0||accreditation,infobox secondary school||11347320||238914866-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||68871||47583090-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11512188||286493314-0||accreditation,infobox school||11520144||286649336-0||accreditation,false,0.21468522785083913,0.14035523135082503
+education,infobox book||215316||77313262-0||genre,infobox book||45908||67481378-0||genre,false,0.15195654869402453,0.0
+education,infobox school||11296648||229466349-0||accreditation,infobox secondary school||11341672||158550072-0||accreditation,false,0.2134043448105244,0.0
+education,infobox school||11243397||194669705-0||accreditation,infobox secondary school||11512058||177645590-0||accreditation,true,0.17959642001313286,0.0
+education,infobox school||11347054||283849488-0||accreditation,infobox school||11347109||283913117-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||5698295||60416392-0||language,infobox book||9394422||112426225-0||language,false,0.1381649007705521,0.0
+education,infobox book||35825142||527303227-0||media_type,infobox book||41746070||592429702-0||media_type,false,0.16565927220095653,0.0
+education,infobox university||392902||54561637-0||country,infobox_university||241070||36293590-0||country,false,0.19715715254023913,0.0
+education,infobox school||11342404||291030054-0||accreditation,infobox school||3537383||224288609-0||accreditation,false,0.3134985804361461,0.0
+education,infobox book||12717950||210937844-0||caption,infobox book||4103689||140523351-0||caption,false,0.18165138450001111,0.0
+education,infobox school||25390866||331194597-0||country,infobox school||25414154||331350301-0||country,true,0.1437256812398599,0.0
+education,infobox school||11346147||283845627-0||accreditation,infobox secondary school||11278599||193432958-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11160819||283818078-0||accreditation,infobox school||11346147||283845627-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11101547||281090951-0||grades,infobox school||11123997||284479185-0||grades,false,0.16802465304016148,0.0
+education,infobox uk school||12928634||153351336-0||lea,infobox uk school||13156061||156484803-0||lea,true,0.38992987368892107,0.0
+education,infobox book||1126555||63736724-0||genre_🔗_extractedLink1,infobox book||2856954||58560291-0||genre_🔗_extractedLink1,false,0.24762129701285784,0.30102999566398114
+education,infobox school||11346354||283860160-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||11603742||156844569-0||language,infobox book||72018||150368678-0||language,false,0.1381649007705521,0.0
+education,infobox book||1505560||57138751-0||genre_🔗_extractedLink0,infobox book||68857||47519287-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||34264690||469283288-0||enrollment_as_of,infobox school||34714670||476563335-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11347109||283913117-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11512188||286493314-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox book||18237768||222983629-4||genre,infobox book||18237768||222983629-4||genre,false,0.27215910411878486,1.8509842142134527
+education,infobox secondary school||11512453||177691634-0||accreditation,infobox secondary school||11520322||177758905-0||accreditation,true,0.17959642001313286,0.0
+education,infobox book||1092478||55376559-0||genre_🔗_extractedLink0,infobox book||68863||47583658-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11160819||283818078-0||accreditation,infobox school||11415351||285310891-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||7406938||264802636-0||country,infobox university||668697||169608114-0||country,false,0.11684014861750064,0.0
+education,infobox school||11108623||280857758-0||accreditation,infobox secondary school||11512058||177645590-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||34405057||471801919-0||enrollment_as_of,infobox school||34405343||471807106-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||18692300||229437786-0||language,infobox book||3071038||91405402-0||language,false,0.1381649007705521,0.0
+education,infobox school||34243764||468897188-0||enrollment_as_of,infobox school||34718895||476591308-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||18692300||229437786-0||language,infobox book||61034498||173433416-0||language,false,0.1381649007705521,0.11684014861750064
+education,infobox secondary school||1060570||54009314-0||country,infobox secondary school||4902631||55499489-0||country,false,0.1739077201290798,0.0
+education,infobox school||23046250||293748917-0||country,infobox school||996811||297616346-0||country,false,0.15021115687136197,0.14035523135082503
+education,infobox book||14440432||173997270-0||caption,infobox book||1915368||386362969-0||caption,false,0.18165138450001111,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox secondary school||11520864||176758223-0||accreditation,false,0.17959642001313286,0.0
+education,infobox_university||12301986||195830702-0||image,infobox_university||16146042||196410771-0||image,true,0.3016243479464708,0.0
+education,infobox book||10415963||119646251-0||genre,infobox book||1092478||55376559-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||4067130||285289863-0||country,infobox school||4772613||284415309-0||country,false,0.12845219657708284,0.0
+education,infobox school||11521966||295950098-0||country,infobox school||11666496||286132838-0||country,false,0.12845219657708284,0.07017761567541252
+education,infobox school||2256868||304889023-0||country,infobox school||8455189||353577500-0||country,false,0.12845219657708284,0.0
+education,infobox school||11509405||286648102-0||accreditation,infobox school||11512188||286493314-0||accreditation,false,0.17959642001313286,0.07017761567541252
+education,infobox school||5298135||324489452-0||country,infobox secondary school||4738374||271927345-0||country,false,0.13829855110003816,0.0
+education,infobox school||34396538||471657036-0||enrollment_as_of,infobox school||34454552||472579499-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11358680||283569257-0||grades,infobox school||11854695||286454437-0||grades,false,0.16802465304016148,0.03508880783770626
+education,infobox book||4472851||123180666-0||genre,infobox book||5621134||59401094-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11243397||194669705-0||accreditation,infobox school||11509405||286648102-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11242375||282782017-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,true,0.17959642001313286,0.0
+education,infobox school||36931834||510998773-4||enrollment_as_of,infobox school||36931834||510998773-4||enrollment_as_of,true,0.21033631078350845,2.841345243134034
+education,infobox school||11347109||283913117-0||accreditation,infobox school||3440867||283977561-0||accreditation,true,0.15139372431410883,0.0
+education,infobox book||10697619||123180162-0||genre,infobox book||215316||77313262-0||genre,true,0.15195654869402453,0.03508880783770626
+education,infobox school||11114583||129161127-0||enrollment_as_of,infobox secondary school||10627470||124488172-0||enrollment_as_of,false,0.14544057663744664,0.03508880783770626
+education,infobox school||3440867||283977561-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||10697334||123177462-0||genre_🔗_extractedLink0,infobox book||4472851||123180666-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014212
+education,infobox school||8989864||141861619-0||accreditation,infobox school||9003049||249912408-0||accreditation,false,0.2582025095935314,0.0
+education,infobox school||36931834||510998773-4||enrollment_as_of,infobox school||36931834||510998773-4||enrollment_as_of,false,0.21033631078350845,2.841345243134034
+education,infobox school||4628242||249760904-0||accreditation,infobox school||4681868||276585030-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||8843384||350200217-0||country,infobox school||9391602||440226691-0||country,false,0.12845219657708284,0.07017761567541252
+education,infobox book||2683082||87392184-0||genre,infobox book||45921||67485509-0||genre,false,0.17955455892958355,0.0
+education,infobox school||666651||291630120-0||accreditation,infobox secondary school||9784578||111767151-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||1356552||558858631-0||media_type,infobox book||34430017||574843880-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||2152606||229924373-0||type,infobox secondary school||12126880||143023701-0||type,false,0.23393457153304148,0.0
+education,infobox school||11175350||281564102-0||accreditation,infobox school||11345683||283976667-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1092478||55376559-0||genre,infobox book||58622||47519096-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11345956||283856419-0||accreditation,infobox secondary school||11279359||193540398-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||34243830||468898662-0||enrollment_as_of,infobox school||34406208||471822725-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox secondary school||5482619||109842138-0||country,infobox university||827618||50128241-0||country,false,0.12017372313437259,0.0
+education,infobox school||11492427||285298676-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11888814||291735092-0||accreditation,infobox school||8813674||99211797-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||4067130||285289863-0||accreditation,infobox university||11503612||213401342-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||58622||47519096-0||genre,infobox book||71479||47583457-0||genre,false,0.15195654869402453,0.16342444856010951
+education,infobox secondary school||3983570||38739323-0||country,infobox_university||391613||34704806-0||country,false,0.11758525065170825,0.0
+education,infobox school||1685136||282775839-0||accreditation,infobox secondary school||11508471||177485449-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||16617096||201328996-0||country,infobox secondary school||15743844||191262063-0||country,false,0.13114604792602325,0.0
+education,infobox school||11108510||280860126-0||accreditation,infobox secondary school||11520322||177758905-0||accreditation,false,0.17959642001313286,0.0
+education,infobox secondary school||7852209||134588054-0||country,infobox uk school||7183516||199077871-0||country,false,0.15797472171467664,0.0
+education,infobox school||16281354||304801166-0||grades,infobox school||6380749||68916978-0||grades,false,0.146468332318086,0.0
+education,infobox school||8956303||345066855-0||accreditation,infobox school||9003049||249912408-0||accreditation,false,0.2582025095935314,0.0
+education,infobox school||11345683||283976667-0||accreditation,infobox school||11492427||285298676-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||10411399||280853217-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11508298||286678185-0||accreditation,infobox school||11520144||286649336-0||accreditation,false,0.21468522785083913,0.0
+education,infobox school||11492427||285298676-0||accreditation,infobox university||11503612||213401342-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||3773663||228645499-0||grades,infobox school||3780050||229032310-0||grades,false,0.31268927511958333,0.0
+education,infobox school||11295794||291215749-0||accreditation,infobox secondary school||3678244||110368779-0||accreditation,false,0.2961233557727666,0.0
+education,infobox school||34454641||472581096-0||conference,infobox school||34532231||473818457-0||conference,false,0.2130098025995897,0.0
+education,infobox book||36941155||511145457-0||media_type,infobox book||37683894||523786133-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||11347109||283913117-0||accreditation,infobox_university||11059130||159456276-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10902339||126011237-0||media_type_🔗_extractedLink0,infobox book||288153||51757034-0||media_type_🔗_extractedLink0,false,0.1867057165337328,0.0
+education,infobox school||34243476||468891468-0||enrollment_as_of,infobox school||34397833||471680728-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox school||11340585||290006660-0||accreditation,infobox school||11341288||290009828-0||accreditation,false,0.3134985804361461,0.0
+education,infobox book||19417136||240105921-0||genre,infobox book||19872962||246704522-0||genre,false,0.17718382013555792,0.0
+education,infobox school||11509405||286648102-0||accreditation,infobox school||11511848||286511425-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||11346477||283835285-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10307534||130230948-0||caption,infobox book||5453139||59087600-0||caption,false,0.18165138450001111,0.0
+education,infobox book||53597||67480428-0||genre,infobox book||68871||47583090-0||genre,false,0.15195654869402453,0.0
+education,infobox school||12461882||291616317-0||accreditation,infobox school||8497381||95095288-0||accreditation,false,0.21762966061994896,0.0
+education,infobox book||18237768||222983629-4||genre,infobox book||18237768||222983629-4||genre,false,0.27215910411878486,1.8509842142134527
+education,infobox school||11279459||285765042-0||accreditation,infobox secondary school||8404447||96718695-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||1491166||52557564-0||genre_🔗_extractedLink0,infobox book||23713951||91908771-0||genre_🔗_extractedLink0,true,0.18068057432842927,0.0
+education,infobox book||3904760||50145547-0||language,infobox book||5319487||55515196-0||language,false,0.1381649007705521,0.0
+education,infobox school||8426690||109927812-0||type,infobox secondary school||4449173||185881768-0||type,false,0.15587041154369186,0.0
+education,infobox secondary school||5335033||105904600-0||state,infobox secondary school||5562651||105900852-0||state,false,0.29447527592247436,0.0
+education,infobox school||3947661||283638837-0||accreditation,infobox school||9943002||123450382-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||10003936||170819573-0||accreditation,infobox school||11947416||291629073-0||accreditation,false,0.22059179387632186,0.0
+education,infobox book||10416018||119647190-0||country,infobox book||10697334||123177462-0||country,true,0.11758525065170825,0.4191874230098224
+education,infobox book||2613883||63902304-0||country,infobox book||67838||42909211-0||country,false,0.11684014861750064,0.0
+education,infobox book||3114705||92086063-0||genre,infobox book||3195652||92086628-0||genre,false,0.22350173523211347,0.0
+education,infobox book||12717950||210937844-0||caption,infobox book||591370||243189042-0||caption,false,0.18165138450001111,0.0
+education,infobox book||146188||58195674-0||genre,infobox book||60128||72279975-0||genre,false,0.2528658109380091,0.0
+education,infobox school||27310667||361364025-0||enrollment_as_of,infobox school||27563261||365382132-0||enrollment_as_of,false,0.2234083371094996,0.0
+education,infobox book||37724150||575918853-0||media_type,infobox book||37997288||529209516-0||media_type,true,0.16565927220095653,0.0
+education,infobox school||11888814||291735092-0||accreditation,infobox secondary school||9784578||111767151-0||accreditation,false,0.22059179387632186,0.0
+education,infobox school||11346147||283845627-0||accreditation,infobox school||11346477||283835285-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||4906053||283914403-0||accreditation,infobox secondary school||3423084||70983699-0||accreditation,false,0.29567851701289527,0.0
+education,infobox book||32688947||62223987-0||genre,infobox book||4389255||58205920-0||genre,false,0.17422051425241009,0.0
+education,infobox book||16722252||243805012-0||caption,infobox book||591370||243189042-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11512188||286493314-0||accreditation,infobox secondary school||11512453||177691634-0||accreditation,false,0.21468522785083913,0.0
+education,infobox book||12717950||210937844-0||caption,infobox book||16722252||243805012-0||caption,false,0.18165138450001111,0.0
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox_university||12103786||142726971-0||campuses_🔗_extractedLink3,infobox_university||12103786||142726971-0||city_🔗_extractedLink3,true,0.43067655807339306,2.1533827903669653
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11278306||285487742-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||18692300||229437786-0||country,infobox book||8599897||201884064-0||country,false,0.11684014861750064,0.0
+education,infobox school||11176649||279245913-0||country,infobox school||8474589||333602311-0||country,false,0.12845219657708284,0.0
+education,infobox school||11358182||283573513-0||accreditation,infobox school||12269793||145146231-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||2306618||283591035-0||accreditation,infobox secondary school||11346980||264332462-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||8855909||350248236-0||accreditation,infobox secondary school||8855854||253927623-0||accreditation,false,0.2724412306336661,0.0
+education,infobox school||11278700||276030465-0||accreditation,infobox school||3762498||124758660-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox book||4118412||40171860-0||genre,infobox book||4613130||46745102-0||genre,false,0.18158874989873744,0.20822979299305266
+education,infobox book||1356552||558858631-0||media_type,infobox book||2505310||527376800-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||11108256||280745687-0||accreditation,infobox secondary school||11509981||176761327-0||accreditation,false,0.17959642001313286,0.10526642351311877
+education,infobox book||12861011||153316506-0||caption,infobox book||12861063||208883184-0||caption,false,0.18165138450001111,0.07017761567541252
+education,infobox school||11277792||285653492-0||accreditation,infobox school||3763008||283781097-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||11120943||286561615-0||accreditation,infobox secondary school||2148439||176771847-0||accreditation,false,0.17959642001313286,0.0
+education,infobox school||4932626||92170870-0||accreditation,infobox school||5996249||286483222-0||accreditation,false,0.18875982899652735,0.07017761567541252
+education,infobox book||10697578||123179668-0||genre,infobox book||58665||47583831-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||11666496||286132838-0||accreditation,infobox school||11667660||250191878-0||accreditation,false,0.29845614086384464,0.0
+education,infobox school||11277632||285484371-0||accreditation,infobox school||11345956||283856419-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||14818477||342269781-0||language,infobox book||27866702||80961469-0||language,false,0.1381649007705521,0.0
+education,infobox book||2450157||88559915-0||language,infobox book||562456||64440437-0||language,false,0.1381649007705521,0.07017761567541252
+education,infobox book||10697578||123179668-0||genre,infobox book||5621134||59401094-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox book||5780538||61481529-0||language,infobox book||8902096||90640438-0||language,false,0.1381649007705521,0.0
+education,infobox book||36941155||511145457-0||media_type,infobox book||37693329||523954126-0||media_type,true,0.16565927220095653,0.0
+education,infobox book||1804983||63899453-0||language,infobox book||3904760||50145547-0||language,false,0.1381649007705521,0.0
+education,infobox book||10697284||123176981-0||genre,infobox book||1092478||55376559-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox scientist||80322||119553391-0||citizenship,infobox scientist||80322||119553391-0||residence,true,0.4106981883341638,2.492988715670541
+education,infobox secondary school||1060570||54009314-0||type_🔗_extractedLink1,infobox secondary school||4911626||54164089-0||type_🔗_extractedLink1,false,0.25692672140015993,0.0
+education,infobox book||4081||55457828-0||genre_🔗_extractedLink0,infobox book||58622||47519096-0||genre_🔗_extractedLink0,false,0.16342444856010951,0.0
+education,infobox school||11160819||283818078-0||accreditation,infobox university||11503612||213401342-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||2630729||62769431-0||media_type,infobox book||5454113||63903776-0||media_type,false,0.1060668157611318,0.03508880783770626
+education,infobox book||10802071||208880333-0||publisher,infobox book||11993928||173429847-0||publisher,false,0.30102999566398114,0.09394295655009044
+education,infobox school||690689||280357068-0||state_🔗_extractedLink0,infobox school||867663||280586685-1||state_🔗_extractedLink0,false,0.4512204788876691,0.47659874405617153
+education,infobox book||45908||67481378-0||genre,infobox book||68871||47583090-0||genre,false,0.15195654869402453,0.0
+education,infobox book||5621134||59401094-0||genre,infobox book||916002||56807455-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||23020723||293436742-0||country,infobox school||25227197||351541632-0||country,false,0.15021115687136197,0.14035523135082503
+education,infobox book||18237768||222983629-4||genre,infobox book||18237768||222983629-4||genre,false,0.27215910411878486,1.8509842142134527
+education,infobox book||68857||47519287-0||genre_🔗_extractedLink0,infobox book||68863||47583658-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox school||11277792||285653492-0||accreditation,infobox university||11503612||213401342-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox school||10365651||182454606-0||schooltype,infobox school||19341125||263780598-0||type,false,0.23393457153304148,0.0
+education,infobox book||3839954||49888707-0||genre_🔗_extractedLink0,infobox book||68871||47583090-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.0
+education,infobox book||2505310||527376800-0||media_type,infobox book||41746070||592429702-0||media_type,false,0.16565927220095653,0.0
+education,infobox school||11145292||283644191-0||accreditation,infobox school||11160819||283818078-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||34430017||574843880-0||media_type,infobox book||35825142||527303227-0||media_type,false,0.16565927220095653,0.0
+education,infobox secondary school||867705||185255310-0||state,infobox_university||345062||61359921-0||state,false,0.3362435127053466,0.0
+education,infobox school||8452850||146626288-0||accreditation,infobox secondary school||5390197||155701932-0||accreditation,false,0.25774262586744356,0.0
+education,infobox school||34405057||471801919-0||enrollment_as_of,infobox school||34454552||472579499-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||5780538||61481529-0||country,infobox book||5780650||61483229-0||country,true,0.20745094026625777,0.1381649007705521
+education,infobox uk school||22525711||204514862-0||website,infobox uk school||22525711||204514862-0||website_name,false,0.43067655807339306,1.4413852270148062
+education,infobox book||2505310||527376800-0||media_type,infobox book||38563327||589413708-0||media_type,false,0.16565927220095653,0.0
+education,infobox book||1044528||69132116-0||language,infobox book||4097091||39923494-0||language,false,0.1381649007705521,0.055216373738846664
+education,infobox book||10697525||123179126-0||country,infobox book||4472851||123180666-0||country,true,0.11758525065170825,0.4191874230098224
+education,infobox book||302301||62489734-0||country,infobox book||562456||64440437-0||country,false,0.1519289564552069,0.0
+education,infobox book||68857||47519287-0||genre_🔗_extractedLink0,infobox book||71479||47583457-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.15195654869402453
+education,infobox book||18237768||222983629-4||country,infobox book||18237768||222983629-4||country,false,0.1527880873532647,1.8509842142134527
+education,infobox book||36941155||511145457-0||media_type,infobox book||38563327||589413708-0||media_type,false,0.16565927220095653,0.0
+education,infobox university||1159568||142969355-0||athletics_🔗_extractedLink0,infobox university||362136||44914117-0||athletics_🔗_extractedLink0,false,0.32146861283434436,0.0
+education,infobox school||11293569||285763483-0||accreditation,infobox school||4067130||285289863-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||9003049||249912408-0||accreditation,infobox school||9003547||350014408-0||accreditation,false,0.2582025095935314,0.0
+education,infobox school||11277792||285653492-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.07017761567541252
+education,infobox uk school||8387286||206951287-0||county,infobox uk school||8387286||206951287-0||lea,false,0.7317065537373741,2.3061700485693883
+education,infobox school||11290009||285706676-0||accreditation,infobox school||4067130||285289863-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11160218||283826180-0||accreditation,infobox school||11347223||283858098-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||12538220||148161354-0||genre,infobox book||368880||150548722-0||genre,false,0.4573965956715891,0.0
+education,infobox secondary school||11508095||177653515-0||accreditation,infobox secondary school||11512058||177645590-0||accreditation,false,0.17959642001313286,0.03508880783770626
+education,infobox_university||10673182||122888432-0||country,infobox_university||11471057||134137603-0||country,true,0.18245093533978057,0.0
+education,infobox book||17470595||213010238-0||series_🔗_extractedLink0,infobox book||17470618||213010652-0||series_🔗_extractedLink0,true,0.43067655807339306,0.43067655807339306
+education,infobox school||11345683||283976667-0||accreditation,infobox secondary school||2896119||100216743-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11159989||283646196-0||accreditation,infobox school||11175350||281564102-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11277792||285653492-0||accreditation,infobox school||11279459||285765042-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11278700||276030465-0||accreditation,infobox school||11345683||283976667-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||11340585||290006660-0||accreditation,infobox school||11343180||227112244-0||accreditation,false,0.3134985804361461,0.0
+education,infobox book||614064||98262594-0||country,infobox school||16782225||203583450-0||country,false,0.11684014861750064,0.0
+education,infobox school||11491772||285277442-0||accreditation,infobox school||3440867||283977561-0||accreditation,false,0.15139372431410883,0.0
+education,infobox school||34264690||469283288-0||enrollment_as_of,infobox school||34406208||471822725-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox book||12500374||147704169-0||pub_date,infobox university||16352505||210344421-1||established,false,0.2679285376556558,0.0
+education,infobox school||27156824||359148563-0||enrollment_as_of,infobox school||34718895||476591308-0||enrollment_as_of,false,0.14676409402267915,0.0
+education,infobox university||3553512||640079703-0||chancellor,infobox university||44337805||632952995-0||chancellor,false,0.5456805377822072,0.7317065537373741
+education,infobox book||10697740||123181323-0||genre,infobox book||58665||47583831-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox school||12532641||274695867-0||accreditation,infobox school||14502767||293765240-0||accreditation,false,0.23393457153304148,0.03508880783770626
+education,infobox book||10697334||123177462-0||genre_🔗_extractedLink0,infobox book||10697578||123179668-0||genre_🔗_extractedLink0,true,0.16342444856010951,0.3733482251014212
+education,infobox book||44449||72487511-0||genre,infobox book||916002||56807455-0||genre,true,0.15195654869402453,0.16342444856010951
+education,infobox_university||10648206||122890894-0||country,infobox_university||10823047||124751465-0||country,true,0.18245093533978057,0.45176852327202127
+education,infobox school||11120943||286561615-0||accreditation,infobox secondary school||11512297||177642565-0||accreditation,false,0.17959642001313286,0.07017761567541252
+education,infobox book||205004||52588768-0||genre,infobox book||23713951||91908771-0||genre,false,0.17621651006233094,0.0
+education,infobox school||2306618||283591035-0||accreditation,infobox secondary school||5824216||72974352-0||accreditation,false,0.25774262586744356,0.0
+education,infobox book||1333969||59339190-0||country,infobox secondary school||2158922||36323678-0||country,false,0.11473390734881975,0.0
+education,infobox uk school||21424134||296218050-0||head_label,infobox uk school||22996707||292984031-0||head_label,false,0.21548453771454518,0.0
+education,infobox book||45908||67481378-0||genre,infobox book||71480||47583245-0||genre,false,0.15195654869402453,0.0
+education,infobox school||3440867||283977561-0||accreditation,infobox secondary school||11278599||193432958-0||accreditation,false,0.15139372431410883,0.03508880783770626
+education,infobox school||11293569||285763483-0||accreditation,infobox school||11345683||283976667-0||accreditation,false,0.15139372431410883,0.0
+education,infobox book||10415963||119646251-0||genre,infobox book||44449||72487511-0||genre,true,0.15195654869402453,0.16342444856010951
