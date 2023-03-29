@@ -75,8 +75,11 @@ def addFilteredBlockingMethods(df):
     df['isInExactMatchBlockingWithDVAFilter'] = ((df['isInExactMatchBlocking']) & (df['DVACount'] > 0))
     df['isInTSMBlockingWithDVAFilter'] = ((df['isInTSMBlockingNoWildcard']) & (df['DVACount'] > 0))
 
-def addRMMethodWithParameter(df,param):
-    df["isInRM" + str(param)] = (df["exactSequenceMatchPercentage"] >= param)
+def addRMMethodWithParameter(df,param,withTransitionFilter=False):
+    if withTransitionFilter:
+        df["isInRM" + str(param)] = ((df["exactSequenceMatchPercentage"] >= param) & (df['hasTransitionOverlapNoDecay']))
+    else:
+        df["isInRM" + str(param)] = (df["exactSequenceMatchPercentage"] >= param)
 
 def addShortDataset(df):
     df['datasetShort'] = df['dataset'].map(lambda x: datasetToAbbreviation[x])
